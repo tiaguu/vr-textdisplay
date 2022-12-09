@@ -1,0 +1,68 @@
+# Unity files
+
+# =============
+
+# Unity3D generated meta files
+
+# =============
+
+vr-textdisplay/*.pidb.meta
+
+# Unity3D generated files
+
+# =============
+
+vr-textdisplay/*.apk
+
+vr-textdisplay/*.unitypackage
+
+vr-textdisplay/*.unityweb
+
+vr-textdisplay/*.unityproj
+
+vr-textdisplay/*.unity
+
+vr-textdisplay/*.unitylock
+
+# Unity3D generated files
+
+# =============
+
+vr-textdisplay/Library/
+
+# Unity3D generated files
+
+# =============
+
+vr-textdisplay/Temp/
+
+# Unity3D generated files
+
+# =============
+
+vr-textdisplay/obj/
+
+vr-textdisplay/*.svd
+
+# Visual Studio files
+
+# =============
+
+vr-textdisplay/*.user
+
+vr-textdisplay/*.sln
+
+vr-textdisplay/*.suo
+
+vr-textdisplay/*.tmp
+
+vr-textdisplay/*.userprefs
+
+vr-textdisplay/*.csproj
+
+vr-textdisplay/*.pidb
+
+vr-textdisplay/*.booproj
+
+vr-textdisplay/*.orig
+
