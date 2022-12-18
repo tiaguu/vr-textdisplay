@@ -22,15 +22,15 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53261
+62113
 Successfully changed project path to: /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay
 /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 203.79 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 182.81 ms, found 6 plugins.
 Plugins: Couldn't open Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
   Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
   Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
-Preloading 1 native plugins for Editor in 1.48 ms.
+Preloading 1 native plugins for Editor in 1.32 ms.
 Initialize engine version: 2020.3.23f1 (c5d91304a876)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets
@@ -41,93 +41,93 @@ Version:  4.1 ATI-4.9.48
 GLES:     0
  GL_ARB_blend_func_extended GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_ES2_compatibility GL_ARB_explicit_attrib_location GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader5 GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_occlusion_query2 GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_subroutine GL_ARB_shading_language_include GL_ARB_tessellation_shader GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_swizzle GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_vertex_attrib_64bit GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_depth_bounds_test GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB_decode GL_APPLE_client_storage GL_APPLE_container_object_shareable G
 L_APPLE_flush_render GL_APPLE_object_purgeable GL_APPLE_rgb_422 GL_APPLE_row_bytes GL_APPLE_texture_range GL_ATI_texture_mirror_once GL_NV_texture_barrier
-OPENGL LOG: Creating OpenGL 4.1 graphics device ; Context level  <OpenGL 4.1> ; Context handle -2062635520
+OPENGL LOG: Creating OpenGL 4.1 graphics device ; Context level  <OpenGL 4.1> ; Context handle -679000064
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56963
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002836 seconds.
+Registered in 0.000673 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 151.25 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 144.21 ms, found 6 plugins.
 Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
   Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
   Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
 Preloading 1 native plugins for Editor in 0.76 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.836 seconds
+- Completed reload, in  0.783 seconds
 Domain Reload Profiling:
-	ReloadAssembly (836ms)
+	ReloadAssembly (783ms)
 		BeginReloadAssembly (53ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (692ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (645ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (218ms)
+			SetupTypeCache (203ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (322ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (303ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (152ms)
-				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (119ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				RefreshPlugins (145ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (110ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015605 seconds.
+Registered in 0.011213 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 161.55 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 146.58 ms, found 6 plugins.
 Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
   Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
   Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
-Preloading 1 native plugins for Editor in 0.84 ms.
+Preloading 1 native plugins for Editor in 0.78 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.398 seconds
+- Completed reload, in  1.993 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2401ms)
-		BeginReloadAssembly (188ms)
+	ReloadAssembly (1994ms)
+		BeginReloadAssembly (175ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (2134ms)
-			LoadAssemblies (208ms)
+		EndReloadAssembly (1747ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (566ms)
+			SetupTypeCache (506ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (141ms)
-			SetupLoadedEditorAssemblies (1052ms)
+			RebuildScriptCaches (135ms)
+			SetupLoadedEditorAssemblies (840ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (162ms)
-				BeforeProcessingInitializeOnLoad (143ms)
-				ProcessInitializeOnLoadAttributes (712ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				RefreshPlugins (147ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (543ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.090502 seconds.
+Validating Project structure ... 0.085777 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.201031 seconds.
+Upgrading shader files ...0.170221 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -140,22 +140,22 @@ Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 Initializing Unity extensions:
-2022-12-16 10:50:17.620 Unity[85596:17703496] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fa7903529b0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-12-16 10:50:17.633 Unity[85596:17703496] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fa7903cb130 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-12-16 15:41:37.257 Unity[90963:17897235] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7ff3e182cc80 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-12-16 15:41:37.269 Unity[90963:17897235] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7ff3e0e846b0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.87 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 1.40 ms, found 6 plugins.
 Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
   Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
   Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
-Preloading 1 native plugins for Editor in 0.90 ms.
+Preloading 1 native plugins for Editor in 1.19 ms.
 Unloading 4792 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.1 MB.
-System memory in use after: 149.8 MB.
+System memory in use before: 150.9 MB.
+System memory in use after: 150.6 MB.
 
 Unloading 1018 unused Assets to reduce memory usage. Loaded Objects now: 5243.
-Total: 6.879763 ms (FindLiveObjects: 0.763153 ms CreateObjectMapping: 0.420764 ms MarkObjects: 4.649360 ms  DeleteObjects: 1.045277 ms)
+Total: 5.371292 ms (FindLiveObjects: 0.630200 ms CreateObjectMapping: 0.327517 ms MarkObjects: 3.582718 ms  DeleteObjects: 0.829713 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -169,1166 +169,130 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Materials/Definitely Not A Hero
-  artifactKey: Guid(dbf883e472fb3424eb0eb9e7e02a012c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero using Guid(dbf883e472fb3424eb0eb9e7e02a012c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f9dee963d8a20ff222b83824d144a8') in 0.006929 seconds 
-  Import took 0.016806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.011584 seconds.
-  path: Assets/pizza-box.fbx
-  artifactKey: Guid(4edb8006bee1c435dbe658703e5ff0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pizza-box.fbx using Guid(4edb8006bee1c435dbe658703e5ff0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e827e66f6dfd1764bb585c2d12a2e214') in 0.557938 seconds 
-  Import took 0.573784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 72.697115 seconds.
-  path: Assets/Materials/Concrete textures pack/pattern 01
-  artifactKey: Guid(13d9e95169a3e4e8e8a696a9b38b83b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Concrete textures pack/pattern 01 using Guid(13d9e95169a3e4e8e8a696a9b38b83b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a8b284f68843a36c267755c0600b38') in 0.007837 seconds 
-  Import took 0.181498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000840 seconds.
-  path: Assets/Materials/Concrete textures pack/pattern 01/diffuse.tga
-  artifactKey: Guid(52fb9790650d0324c8b24cae56159844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Concrete textures pack/pattern 01/diffuse.tga using Guid(52fb9790650d0324c8b24cae56159844) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'da5e00a91d98b6bc2313a8ee9906746e') in 2.156629 seconds 
-  Import took 2.190563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000550 seconds.
-  path: Assets/Materials/Concrete textures pack/pattern 01/preview.jpg
-  artifactKey: Guid(b66c0912b671be645bfcf63a83e63369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Concrete textures pack/pattern 01/preview.jpg using Guid(b66c0912b671be645bfcf63a83e63369) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'aad97c40b64af83e42eb2acd5eb0c93e') in 1.910706 seconds 
-  Import took 1.942095 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000508 seconds.
-  path: Assets/Materials/Concrete textures pack/pattern 01/Concrete pattern 01.mat
-  artifactKey: Guid(9447935ca27fed54c9c28112b77d5908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Concrete textures pack/pattern 01/Concrete pattern 01.mat using Guid(9447935ca27fed54c9c28112b77d5908) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '81d343185cbff6c24e5dc327bd8570bf') in 2.979141 seconds 
-  Import took 3.011719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001375 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures
-  artifactKey: Guid(6e754e1ad1deade41a01ad7f228f52d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures using Guid(6e754e1ad1deade41a01ad7f228f52d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c66c7ad230bb5bb7bdc77f16286b13') in 0.004379 seconds 
-  Import took 0.029809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000644 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/plane 2 mt.fbx
-  artifactKey: Guid(2dede55fd52f541468a7f12c1ea6029d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/plane 2 mt.fbx using Guid(2dede55fd52f541468a7f12c1ea6029d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a7eb3f47d465a24b4ade8f5abb0e91') in 0.100668 seconds 
-  Import took 0.125818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000612 seconds.
-  path: Assets/Materials/Concrete textures pack/pattern 01/normal.tga
-  artifactKey: Guid(4c89e0f06b2b0c34ebb9b930314cf921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Concrete textures pack/pattern 01/normal.tga using Guid(4c89e0f06b2b0c34ebb9b930314cf921) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '045bf1883e88c6f646aef22e39c3ff38') in 0.026599 seconds 
-  Import took 0.052211 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.878416 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P1
-  artifactKey: Guid(214f035283b29f9479fa21438ae075e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P1 using Guid(214f035283b29f9479fa21438ae075e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1964f7ce970d8c2230ac8c181e88bd2d') in 0.003788 seconds 
-  Import took 0.026888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.816055 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P1/New Material.mat
-  artifactKey: Guid(b755cafad7c4dc141b15220da66ee44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P1/New Material.mat using Guid(b755cafad7c4dc141b15220da66ee44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '112141e1d3edb0d66b956652d14be0a3') in 1.144456 seconds 
-  Import took 1.185546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017892 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P1/P1_BaseColor.png
-  artifactKey: Guid(c3d0c350796adb54fb90ddd7d32b7eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P1/P1_BaseColor.png using Guid(c3d0c350796adb54fb90ddd7d32b7eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '36d26eab3bdefed7420fa3711ffbc3c2') in 2.220760 seconds 
-  Import took 2.252761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000686 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P1/P1_metal_smooth.tga
-  artifactKey: Guid(4439ae1c7fe982a498606e5ebad2dc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P1/P1_metal_smooth.tga using Guid(4439ae1c7fe982a498606e5ebad2dc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'd3c5c37c94782b07a35ecc59632e9de8') in 0.190108 seconds 
-  Import took 0.210812 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000838 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P1/P1_Normal.png
-  artifactKey: Guid(1ee371bbbb0d5a6418789a9ab7589827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P1/P1_Normal.png using Guid(1ee371bbbb0d5a6418789a9ab7589827) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '5a384fae8b5095a85338335dd68443c7') in 0.156386 seconds 
-  Import took 0.177884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000543 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P1/P1_Ao.png
-  artifactKey: Guid(2007b4c3f7d970845809509395cb4562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P1/P1_Ao.png using Guid(2007b4c3f7d970845809509395cb4562) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '61248ae4dde03cc0830e4e91acadcbf4') in 0.100284 seconds 
-  Import took 0.123483 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.143954 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P2
-  artifactKey: Guid(ef1dfc560f90b6a4cabd65f3012f8eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P2 using Guid(ef1dfc560f90b6a4cabd65f3012f8eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fddf408cdfdfe7ad64f0eb6e96be59') in 0.003301 seconds 
-  Import took 0.028197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.026462 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P2/P2_Ao.png
-  artifactKey: Guid(40db4b3b521e9c649b16f299f13155c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P2/P2_Ao.png using Guid(40db4b3b521e9c649b16f299f13155c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '1d2a4ac6013fbf25834da9420a3903e5') in 0.106436 seconds 
-  Import took 0.128822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000588 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P2/P2_Material.mat
-  artifactKey: Guid(b4eefe8c29e08d04f8aac6e3aeaad9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P2/P2_Material.mat using Guid(b4eefe8c29e08d04f8aac6e3aeaad9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '2e28114770ca16c08ce1bdc427933925') in 0.546539 seconds 
-  Import took 0.581580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000542 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P2/p2_metallic_roughness.tga
-  artifactKey: Guid(4dc81b1374cbff347993ed74b263a059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P2/p2_metallic_roughness.tga using Guid(4dc81b1374cbff347993ed74b263a059) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '99de38dd8018b3fde2ac115d4189e10f') in 0.174705 seconds 
-  Import took 0.198614 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000581 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P2/P2_BaseColor.png
-  artifactKey: Guid(02804ecc3b6bcc04ca743e7b49e9d86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P2/P2_BaseColor.png using Guid(02804ecc3b6bcc04ca743e7b49e9d86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '0b6c9f12c63672e1de49fa1e4ea0ed1d') in 0.151877 seconds 
-  Import took 0.175101 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000651 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P2/P2_Normal.png
-  artifactKey: Guid(e95435b7f8e8cb24ea24a961f0ee9622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P2/P2_Normal.png using Guid(e95435b7f8e8cb24ea24a961f0ee9622) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '20f3c3563784a7d19f82013068dfd689') in 0.161556 seconds 
-  Import took 0.184378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.864469 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P3
-  artifactKey: Guid(0b954f931b2dd934594b9f4127e69c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P3 using Guid(0b954f931b2dd934594b9f4127e69c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7429a5450bd55c0edab2513b323fb5a2') in 0.002875 seconds 
-  Import took 0.026061 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.456118 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P3/P3_Ao.png
-  artifactKey: Guid(bce4a41b0048da944a62108d17de1292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P3/P3_Ao.png using Guid(bce4a41b0048da944a62108d17de1292) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'a8c42a0179968af255eeaaec44053a92') in 0.125935 seconds 
-  Import took 0.146807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000583 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P3/P3_Normal.png
-  artifactKey: Guid(2f7066c29b19dcd47a7539e1953e23d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P3/P3_Normal.png using Guid(2f7066c29b19dcd47a7539e1953e23d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '120cfe3af6da5e5f612f5ad2a3fe6ad4') in 0.170372 seconds 
-  Import took 0.191167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000662 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P3/P3_BaseColor.png
-  artifactKey: Guid(5a81c82eb830f7945a19d73a93488f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P3/P3_BaseColor.png using Guid(5a81c82eb830f7945a19d73a93488f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '0eb98d0c3a72549a69b3b16ac06d3aec') in 0.157447 seconds 
-  Import took 0.179930 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000611 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P3/P3_metallic_rough.tga
-  artifactKey: Guid(169d62547eec5ef42b73c5f3583a31bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P3/P3_metallic_rough.tga using Guid(169d62547eec5ef42b73c5f3583a31bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '4a4ed525f2655d1d965b2c4f9cecc002') in 0.160156 seconds 
-  Import took 0.181401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000543 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P3/P3_Material.mat
-  artifactKey: Guid(af1605abbcbf0314db779ab9f6b402f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P3/P3_Material.mat using Guid(af1605abbcbf0314db779ab9f6b402f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '9c5a75ad3daed034d728908dae400e00') in 0.585995 seconds 
-  Import took 0.621104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.594350 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P4
-  artifactKey: Guid(2e1f27ceae085104fa2bc06782ec484b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P4 using Guid(2e1f27ceae085104fa2bc06782ec484b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cf0781ce76259a5056753dd43274d8') in 0.005177 seconds 
-  Import took 0.037812 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.707095 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P4/P4_Ao.png
-  artifactKey: Guid(c41260b86385d79448ac66a253d896d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P4/P4_Ao.png using Guid(c41260b86385d79448ac66a253d896d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '670fc701e924611a0e3c5c9b19065de9') in 0.176816 seconds 
-  Import took 0.204208 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000902 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P4/P4_Normal.png
-  artifactKey: Guid(75a0fd129f39a954887253872d654dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P4/P4_Normal.png using Guid(75a0fd129f39a954887253872d654dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '7e2531afa5e1f9d208eea9b25281015d') in 0.260077 seconds 
-  Import took 0.288768 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000722 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P4/P4_BaseColor.png
-  artifactKey: Guid(e93badd339d47c448867b7cd70b36010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P4/P4_BaseColor.png using Guid(e93badd339d47c448867b7cd70b36010) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '1db91aad4ada2c17beb1b3221389404c') in 0.233386 seconds 
-  Import took 0.263007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001458 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P4/P4_Metallic_roughness.tga
-  artifactKey: Guid(15b465df62affd74db78c97356c0dcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P4/P4_Metallic_roughness.tga using Guid(15b465df62affd74db78c97356c0dcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'e0577219855ddb9f45cdc7ed9ee6d11b') in 0.240224 seconds 
-  Import took 0.267463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001590 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P4/P4_Material.mat
-  artifactKey: Guid(f76c1a7fd7a04384088898bd7f3e6080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P4/P4_Material.mat using Guid(f76c1a7fd7a04384088898bd7f3e6080) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'eb760a4bf06cc8d1b1fceedc70313aa8') in 0.737961 seconds 
-  Import took 0.782240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.045074 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P5
-  artifactKey: Guid(676aac0f8a44bb94ba7678a347ae28b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P5 using Guid(676aac0f8a44bb94ba7678a347ae28b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62953dc36a54caaaa8ea2e12602191f') in 0.002951 seconds 
-  Import took 0.028453 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.561539 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P5/P5_Ao.png
-  artifactKey: Guid(8c2057e9ce614dc449cec786030e9fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P5/P5_Ao.png using Guid(8c2057e9ce614dc449cec786030e9fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '8a39f1d5d4e42a936ba15fc8acd405e0') in 0.114850 seconds 
-  Import took 0.135585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000826 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P5/P5_Normal.png
-  artifactKey: Guid(98dd0e06393efae49b61a7db83cd47cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P5/P5_Normal.png using Guid(98dd0e06393efae49b61a7db83cd47cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'b428bda5cfeff9178dd9b40137c16e5b') in 0.179101 seconds 
-  Import took 0.198523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000772 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P5/P5_BaseColor.png
-  artifactKey: Guid(ecf375e4a6468094791ef493bac5cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P5/P5_BaseColor.png using Guid(ecf375e4a6468094791ef493bac5cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'aabf7c852e24b4941d173211d55c62c3') in 0.142903 seconds 
-  Import took 0.163401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000735 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P5/p5_Material.mat
-  artifactKey: Guid(a1824bc2a683ccf4f8fb79a6f215998b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P5/p5_Material.mat using Guid(a1824bc2a683ccf4f8fb79a6f215998b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '224a0a39dd53f0e872a6e80c2a13d217') in 0.536634 seconds 
-  Import took 0.571470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000619 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P5/P5_Metallic_Roughness.tga
-  artifactKey: Guid(a4fb4ec8aaf205e46a590d4c469647d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P5/P5_Metallic_Roughness.tga using Guid(a4fb4ec8aaf205e46a590d4c469647d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'eb184ac52619fa84092cfb9814887dd5') in 0.141849 seconds 
-  Import took 0.161682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.644904 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P6
-  artifactKey: Guid(07c0be1d0a7e53c47b730172c8d26703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P6 using Guid(07c0be1d0a7e53c47b730172c8d26703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b50a212bce8dae1e9cab6c89b4bf427') in 0.005237 seconds 
-  Import took 0.031862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.571800 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P6/P6_Ao.png
-  artifactKey: Guid(6b0256e48df9f754a83324c749bcbe8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P6/P6_Ao.png using Guid(6b0256e48df9f754a83324c749bcbe8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'ae185081759a6e36a7781ee0fb2c44ee') in 0.153331 seconds 
-  Import took 0.179265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000674 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P6/P6_BaseColor.png
-  artifactKey: Guid(a6e43b124042b7d47827684e66d00d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P6/P6_BaseColor.png using Guid(a6e43b124042b7d47827684e66d00d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'b5693d4092487e10dd2b51e7437fc8ca') in 0.195514 seconds 
-  Import took 0.218078 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000773 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P6/P6_Metallic_Roughness.tga
-  artifactKey: Guid(180654695bc29aa4198e5cbeedef4478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P6/P6_Metallic_Roughness.tga using Guid(180654695bc29aa4198e5cbeedef4478) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '6755c85117768a6b69d2aa8e24baad3e') in 0.179922 seconds 
-  Import took 0.203732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000756 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P6/P6_Material.mat
-  artifactKey: Guid(d3a80b595a4f5d84897c203feed61826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P6/P6_Material.mat using Guid(d3a80b595a4f5d84897c203feed61826) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '5df05bb14019f78e5420fbaf415d830b') in 1.050764 seconds 
-  Import took 1.090609 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001693 seconds.
-  path: Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P6/P6_Normal.png
-  artifactKey: Guid(1977e70694d4b46419640849a10dfdc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Definitely Not A Hero/PBR Stylized Textures/P6/P6_Normal.png using Guid(1977e70694d4b46419640849a10dfdc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '0166ada123135b9ee3f644e70669f2f3') in 0.195049 seconds 
-  Import took 0.221647 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.885757 seconds.
-  path: Assets/Materials/Wooden floor
-  artifactKey: Guid(d0cfbb7c83f094433ace468ac374e0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor using Guid(d0cfbb7c83f094433ace468ac374e0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d6e3246c355539c7e75cae4edf9db4') in 0.003002 seconds 
-  Import took 0.031432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.253823 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 01
-  artifactKey: Guid(c20e41af3ddb94adeae5c10b7e1fcbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 01 using Guid(c20e41af3ddb94adeae5c10b7e1fcbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37146fed638a178cc8b721cf3ee25bc1') in 0.003915 seconds 
-  Import took 0.024620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.722007 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 01/Wooden floor 01.mat
-  artifactKey: Guid(b5198f8af2f2fb74d81edc8ca9d255ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 01/Wooden floor 01.mat using Guid(b5198f8af2f2fb74d81edc8ca9d255ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'b8bf190753d4000c9444e142c4a53ce6') in 0.049144 seconds 
-  Import took 0.069278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000619 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 01/Wooden floor normal.tga
-  artifactKey: Guid(4ee2b7fdbd28a6c488200be86572be5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 01/Wooden floor normal.tga using Guid(4ee2b7fdbd28a6c488200be86572be5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '10f8d8cb0757c036ebbb6d76dac58669') in 0.020139 seconds 
-  Import took 0.038530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000571 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 01/Wooden floor diffuse.tga
-  artifactKey: Guid(cd80b1a4d37ec0d44a2a9a70219c67a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 01/Wooden floor diffuse.tga using Guid(cd80b1a4d37ec0d44a2a9a70219c67a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '6bcb53b801a4d793623ea0cf883a987e') in 0.023691 seconds 
-  Import took 0.043269 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 63.482757 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 02
-  artifactKey: Guid(4c8f1da98e58b45a48996765650e0766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 02 using Guid(4c8f1da98e58b45a48996765650e0766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ed55cb72534dbc9109f24a643220c6') in 0.002186 seconds 
-  Import took 0.021054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.435698 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 02/Wooden floor 02.mat
-  artifactKey: Guid(909ba812e840a4c4399dd2bf9ed67a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 02/Wooden floor 02.mat using Guid(909ba812e840a4c4399dd2bf9ed67a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '34d3066f7425a4489ab66dbcf81f7e91') in 0.031506 seconds 
-  Import took 0.043085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 02/Wooden floor diffuse.tga
-  artifactKey: Guid(c10d183773495b0449ef26024d83f3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 02/Wooden floor diffuse.tga using Guid(c10d183773495b0449ef26024d83f3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '35b91e3377db2d4a61529cca53eea7e9') in 0.018083 seconds 
-  Import took 0.029731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 02/Wooden floor normal.tga
-  artifactKey: Guid(b3ad2935b3b9c354faa5e4e7edef5330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 02/Wooden floor normal.tga using Guid(b3ad2935b3b9c354faa5e4e7edef5330) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '6d17f09162fe88fb8d4d1d75aaff5178') in 0.015098 seconds 
-  Import took 0.027274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.675944 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 03
-  artifactKey: Guid(5ea990afb45a645c2853155ca7efbe45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 03 using Guid(5ea990afb45a645c2853155ca7efbe45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73071c40c546c502ea1a6f721b567f9c') in 0.001904 seconds 
-  Import took 0.012916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.240225 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 03/Wooden floor 03.mat
-  artifactKey: Guid(7e181fd161a9d4c41a7d09c87806d01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 03/Wooden floor 03.mat using Guid(7e181fd161a9d4c41a7d09c87806d01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '6b32e1a86e3fb5cf1c5e9bfdea6624e4') in 0.016690 seconds 
-  Import took 0.026666 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 03/Wooden floor normal.tga
-  artifactKey: Guid(8c0d549c01875c34dae18facc22c0f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 03/Wooden floor normal.tga using Guid(8c0d549c01875c34dae18facc22c0f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'f6b6bdcdae6afdaadcfa8c95aa86bd9e') in 0.009698 seconds 
-  Import took 0.019975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 03/Wooden floor diffuse.tga
-  artifactKey: Guid(6c631a00e581dcf41a1aaf4f51ae99a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 03/Wooden floor diffuse.tga using Guid(6c631a00e581dcf41a1aaf4f51ae99a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '31668d8f85a033dcfa4e1345d201abe8') in 0.010423 seconds 
-  Import took 0.020646 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.929404 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 04
-  artifactKey: Guid(122660022d5384118b8caab94e3ed058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 04 using Guid(122660022d5384118b8caab94e3ed058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a45a854d1ed97603689f314cc84818e') in 0.002106 seconds 
-  Import took 0.012427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.245941 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 04/Wooden floor 04.mat
-  artifactKey: Guid(585b99b5dc612124e94345db68b4544a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 04/Wooden floor 04.mat using Guid(585b99b5dc612124e94345db68b4544a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'efdcd378361f3b4809aa0fc9b409b4b1') in 0.017098 seconds 
-  Import took 0.027031 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 04/Wooden floor normal.tga
-  artifactKey: Guid(c07f07b1fda14b84b9f27b58f0a957e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 04/Wooden floor normal.tga using Guid(c07f07b1fda14b84b9f27b58f0a957e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'e37e8395e33636905d83c4bbdfae1fa8') in 0.011167 seconds 
-  Import took 0.021761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000406 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 04/Wooden floor diffuse.tga
-  artifactKey: Guid(539e440f4713d8942abdef5d2853d5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 04/Wooden floor diffuse.tga using Guid(539e440f4713d8942abdef5d2853d5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '8a36f2df1dcc86b8c55e804414633bac') in 0.012330 seconds 
-  Import took 0.023386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.821129 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 05
-  artifactKey: Guid(7c301e147171841bdac57830d1811756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 05 using Guid(7c301e147171841bdac57830d1811756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f433d24708c14b5292d281c8a6331a2e') in 0.002214 seconds 
-  Import took 0.013123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.448247 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 05/Wooden floor 05.mat
-  artifactKey: Guid(18f616d90077f55439a996dc6e804862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 05/Wooden floor 05.mat using Guid(18f616d90077f55439a996dc6e804862) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '7c3adc8cf59ca47db5659bb3513d4f7a') in 0.024076 seconds 
-  Import took 0.035122 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 05/Wooden floor diffuse.tga
-  artifactKey: Guid(f5cc0b5174cb51f439cf34137586e583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 05/Wooden floor diffuse.tga using Guid(f5cc0b5174cb51f439cf34137586e583) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '70001ed1335c857a0a537b3e75b2ca91') in 0.010908 seconds 
-  Import took 0.021897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 05/Wooden floor normal.tga
-  artifactKey: Guid(46ac2557224ef2747bddc416b5343d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 05/Wooden floor normal.tga using Guid(46ac2557224ef2747bddc416b5343d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '94298f6441dbd021ca98a94266ddbc7b') in 0.010690 seconds 
-  Import took 0.021166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.358217 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 06
-  artifactKey: Guid(3fde2e930cbc7401da0965c838092dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 06 using Guid(3fde2e930cbc7401da0965c838092dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e3af610965145215df488ed913d088') in 0.003088 seconds 
-  Import took 0.015037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.286758 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 06/Wooden floor 06.mat
-  artifactKey: Guid(1915ad50456855041a24dd2f99ea40b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 06/Wooden floor 06.mat using Guid(1915ad50456855041a24dd2f99ea40b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '174f69cdeb5da859d1a80e5fa314fd78') in 0.022309 seconds 
-  Import took 0.034425 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 06/Wooden floor diffuse.tga
-  artifactKey: Guid(bb7716d533ec35649960e14e5e68cb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 06/Wooden floor diffuse.tga using Guid(bb7716d533ec35649960e14e5e68cb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '6e9758a888046061f58638d82beb240d') in 0.012420 seconds 
-  Import took 0.024726 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 06/Wooden floor normal.tga
-  artifactKey: Guid(003dcb26b5c73f548b3eee54e3b24b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 06/Wooden floor normal.tga using Guid(003dcb26b5c73f548b3eee54e3b24b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '0d6e295ba6985924592baa790934ac46') in 0.011178 seconds 
-  Import took 0.022976 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 77.856662 seconds.
-  path: Assets/Materials/Concrete textures pack/pattern 20
-  artifactKey: Guid(d59b858b45137403c881a44fbb24e1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Concrete textures pack/pattern 20 using Guid(d59b858b45137403c881a44fbb24e1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6166035d6eff61878120ec265cc0b1a6') in 0.006860 seconds 
-  Import took 0.040769 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.038721 seconds.
-  path: Assets/Materials/Concrete textures pack/pattern 20/Concrete pattern 20.mat
-  artifactKey: Guid(d9118644cf18d114abae307878884709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Concrete textures pack/pattern 20/Concrete pattern 20.mat using Guid(d9118644cf18d114abae307878884709) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '3b4b5453d088374201e86167f11f0f15') in 0.062125 seconds 
-  Import took 0.093442 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000825 seconds.
-  path: Assets/Materials/Concrete textures pack/pattern 20/diffuse.tga
-  artifactKey: Guid(b849444d32b0d014f89eea7ab00e6c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Concrete textures pack/pattern 20/diffuse.tga using Guid(b849444d32b0d014f89eea7ab00e6c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '0597a50e56cb58aee0eb42da7ecac621') in 0.029190 seconds 
-  Import took 0.054443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000800 seconds.
-  path: Assets/Materials/Concrete textures pack/pattern 20/normal.tga
-  artifactKey: Guid(7a8be65734a93fc49aca732fcf50e57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Concrete textures pack/pattern 20/normal.tga using Guid(7a8be65734a93fc49aca732fcf50e57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'be93825ee86811f89fde74aa0b2ce14b') in 0.029220 seconds 
-  Import took 0.055941 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000788 seconds.
-  path: Assets/Materials/Concrete textures pack/pattern 20/preview.jpg
-  artifactKey: Guid(24ac637c34a5abb4798a57b62a329104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Concrete textures pack/pattern 20/preview.jpg using Guid(24ac637c34a5abb4798a57b62a329104) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'ddfaa158b8f9f9f36d602a5afd083898') in 0.043560 seconds 
-  Import took 0.068341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.045411 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 09
-  artifactKey: Guid(0af16bcf3414949bcab7d8f1943b5881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 09 using Guid(0af16bcf3414949bcab7d8f1943b5881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187ba0025cfc226b3e2220242285fe84') in 0.004553 seconds 
-  Import took 0.034724 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.703395 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 09/Wooden floor 09.mat
-  artifactKey: Guid(a62c2d4255dc1544eb8d146690fa6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 09/Wooden floor 09.mat using Guid(a62c2d4255dc1544eb8d146690fa6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'b196ad86e8d9ccc695c516f086ba2665') in 0.045406 seconds 
-  Import took 0.072893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000912 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 09/Wooden floor normal.tga
-  artifactKey: Guid(27918644b59859f4188ea93c72064f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 09/Wooden floor normal.tga using Guid(27918644b59859f4188ea93c72064f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '0b7e085880caa0efc3b0afd079a5042e') in 0.028744 seconds 
-  Import took 0.056203 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000802 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 09/Wooden floor diffuse.tga
-  artifactKey: Guid(74a23c6ab1998924a998bd68d7ae1371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 09/Wooden floor diffuse.tga using Guid(74a23c6ab1998924a998bd68d7ae1371) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '804c29c2463680ba3a0927c63f59dd73') in 0.028530 seconds 
-  Import took 0.054689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.110114 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 10
-  artifactKey: Guid(2d7c4087bd687470288bf3968b50f1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 10 using Guid(2d7c4087bd687470288bf3968b50f1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5818dd1824d4e58d3c960f301e6cfb2') in 0.004144 seconds 
-  Import took 0.039787 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.740845 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 10/Wooden floor 10.mat
-  artifactKey: Guid(1db0e90b9a3b07943b75591b4e452a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 10/Wooden floor 10.mat using Guid(1db0e90b9a3b07943b75591b4e452a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: '8494cf462cf8db5ff30dec4f3cb8e890') in 0.048806 seconds 
-  Import took 0.076276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000696 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 10/Wooden floor normal.tga
-  artifactKey: Guid(42c62ba450b3a314da495fe7dbc01b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 10/Wooden floor normal.tga using Guid(42c62ba450b3a314da495fe7dbc01b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
- -> (artifact id: 'b70912aafebebda6f2a7d052188bbae2') in 0.027406 seconds 
-  Import took 0.051541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000864 seconds.
-  path: Assets/Materials/Wooden floor/Wooden floor 10/Wooden floor diffuse.tga
-  artifactKey: Guid(c78ef30b15d438d479e9521f28432bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wooden floor/Wooden floor 10/Wooden floor diffuse.tga using Guid(c78ef30b15d438d479e9521f28432bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'ac397b5ba3c43feaaf6b04c4863338de') in 0.028448 seconds 
-  Import took 0.052114 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 81.949085 seconds.
-  path: Assets/3Dfrk
-  artifactKey: Guid(f3deba835015ff5409eee5a99df6e5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk using Guid(f3deba835015ff5409eee5a99df6e5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29e39758d2e97d1938e910186b490ad') in 0.008144 seconds 
-  Import took 0.149679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.786405 seconds.
-  path: Assets/3Dfrk/Frames with pictures
-  artifactKey: Guid(d0f6c004e30f8ea47beae89302b286fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures using Guid(d0f6c004e30f8ea47beae89302b286fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0216d33316378fe212ee8444d74986d') in 0.003477 seconds 
-  Import took 0.019950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.893930 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Materials
-  artifactKey: Guid(5715e3b3be20eb54cafb28257f5dfd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Materials using Guid(5715e3b3be20eb54cafb28257f5dfd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5e04ed9cd1dee0856b85368abc0bbf') in 0.001856 seconds 
-  Import took 0.017284 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.816011 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Prefabs
-  artifactKey: Guid(5f0b50f261fd49c4aac75594c225e812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Prefabs using Guid(5f0b50f261fd49c4aac75594c225e812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81eb34297db1795f5338624d28056a32') in 0.002431 seconds 
-  Import took 0.017369 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.051662 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Prefabs/Paint_01.prefab
-  artifactKey: Guid(eded3844e29c2ec40bc278e2cbd31279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Prefabs/Paint_01.prefab using Guid(eded3844e29c2ec40bc278e2cbd31279) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '6844d60a4edead10932ed1d82928c11c') in 0.337531 seconds 
-  Import took 0.361218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000546 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Prefabs/Paint_02.prefab
-  artifactKey: Guid(f7c4d057f1187c64bad50c0d179a5f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Prefabs/Paint_02.prefab using Guid(f7c4d057f1187c64bad50c0d179a5f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '180a3479a5e72110546c04b009ef6306') in 0.044760 seconds 
-  Import took 0.060119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000434 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Prefabs/Paint_08.prefab
-  artifactKey: Guid(5c58155118a1cf2469411428cfd4362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Prefabs/Paint_08.prefab using Guid(5c58155118a1cf2469411428cfd4362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '30dec62a98e5559669646baf53564b83') in 0.044208 seconds 
-  Import took 0.059401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000453 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Prefabs/Paint_10.prefab
-  artifactKey: Guid(ba649581e7ae3f54a9892d5967eaaf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Prefabs/Paint_10.prefab using Guid(ba649581e7ae3f54a9892d5967eaaf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'db712eb1736abc3231270a50b4b0b475') in 0.045414 seconds 
-  Import took 0.060828 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Prefabs/Paint_03.prefab
-  artifactKey: Guid(ec2a6eb55d6bac64f8e60e43c3cb20ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Prefabs/Paint_03.prefab using Guid(ec2a6eb55d6bac64f8e60e43c3cb20ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '2dcc53fc2ac3d5ce9161caf451524d3d') in 0.045284 seconds 
-  Import took 0.061571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000424 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Prefabs/Paint_07.prefab
-  artifactKey: Guid(1906dcb2568c13f4c962c7e0c0d82ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Prefabs/Paint_07.prefab using Guid(1906dcb2568c13f4c962c7e0c0d82ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'e25a2035f452fe4e00975e5cf49af822') in 0.046825 seconds 
-  Import took 0.060993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000415 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Prefabs/Paint_05.prefab
-  artifactKey: Guid(335e5cedc041a614c86ff1f3feee693a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Prefabs/Paint_05.prefab using Guid(335e5cedc041a614c86ff1f3feee693a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'f0d0a2d90fa83080a83639afb3c5d017') in 0.044215 seconds 
-  Import took 0.058650 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000539 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Prefabs/Paint_09.prefab
-  artifactKey: Guid(356b1d37aedb571479e6cff7bda80568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Prefabs/Paint_09.prefab using Guid(356b1d37aedb571479e6cff7bda80568) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '776ba36a692af23eefab8f80828a82ac') in 0.046873 seconds 
-  Import took 0.062557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Prefabs/Paint_06.prefab
-  artifactKey: Guid(abda86a92826ad74f8b3f4b1ab326acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Prefabs/Paint_06.prefab using Guid(abda86a92826ad74f8b3f4b1ab326acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '18ead2f695b8cc13c0b1c18eb30d523b') in 0.044417 seconds 
-  Import took 0.059846 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000434 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Prefabs/Paint_04.prefab
-  artifactKey: Guid(7e9db585073230b438ac03f1ddea8b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Prefabs/Paint_04.prefab using Guid(7e9db585073230b438ac03f1ddea8b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '130d1b05c10428727cf7d22a1e1699e5') in 0.047120 seconds 
-  Import took 0.063494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.328865 seconds.
-  path: Assets/pizza-box 1.fbx
-  artifactKey: Guid(8f85dac312ad24011a66a0a364cbd19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pizza-box 1.fbx using Guid(8f85dac312ad24011a66a0a364cbd19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56a8b8cfb852dcbedcc013bc659879d') in 0.489063 seconds 
-  Import took 0.517565 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 107.786031 seconds.
-  path: Assets/Objects/school/material
-  artifactKey: Guid(87b942742db18d74cadc81763e504ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/school/material using Guid(87b942742db18d74cadc81763e504ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30bdbc68d995888308a4cd0c8e3f2ed') in 0.004161 seconds 
-  Import took 0.029874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.512391 seconds.
-  path: Assets/Objects/school/material/1.png
-  artifactKey: Guid(4b03c68dd480c5946acba6280c21b674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/school/material/1.png using Guid(4b03c68dd480c5946acba6280c21b674) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '11e4a118ec5534b407f7933c53653e67') in 0.059477 seconds 
-  Import took 0.082101 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.446495 seconds.
-  path: Assets/Objects/school/material/Materials
-  artifactKey: Guid(7f0cc5bbcb8d137418bf5322cab36bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/school/material/Materials using Guid(7f0cc5bbcb8d137418bf5322cab36bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba61cc52bdee8f351dddb4153dc69e28') in 0.002567 seconds 
-  Import took 0.026280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.746563 seconds.
-  path: Assets/Objects/school/material/Materials/1.mat
-  artifactKey: Guid(30b92673b9b7ef44c9c11a474d9910c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/school/material/Materials/1.mat using Guid(30b92673b9b7ef44c9c11a474d9910c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '4e417986ed4af0063ae57a06345865bc') in 0.052589 seconds 
-  Import took 0.076893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000780 seconds.
-  path: Assets/Objects/school/material/Materials/floor_color.mat
-  artifactKey: Guid(1dbcdd8ff94528e48b2ec42b537b1d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/school/material/Materials/floor_color.mat using Guid(1dbcdd8ff94528e48b2ec42b537b1d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce334dcc6c78aec3668977e5a0842bbb') in 0.148097 seconds 
-  Import took 0.169189 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 83.006434 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
-  artifactKey: Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg using Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '25f3df274fce58faa887a850fa93c130') in 0.094725 seconds 
-  Import took 0.158733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000626 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg
-  artifactKey: Guid(f88677df267a41d6be1e7a6133e7d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg using Guid(f88677df267a41d6be1e7a6133e7d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'ef62400d28e0ed32cecd9770edd5a3f0') in 0.029930 seconds 
-  Import took 0.052235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 141.915332 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Textures/Paint_06.png
-  artifactKey: Guid(70d022ad94241a94086f65ba40287e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Textures/Paint_06.png using Guid(70d022ad94241a94086f65ba40287e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '29b87019f6008668eb15f72b9fa33948') in 0.085839 seconds 
-  Import took 0.104692 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.172086 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Textures/Paint_01.png
-  artifactKey: Guid(9660de3cf62147f45b25e22b6ab97ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Textures/Paint_01.png using Guid(9660de3cf62147f45b25e22b6ab97ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'bc0c05312cd2e77c661fa5db7a06f2ea') in 0.054097 seconds 
-  Import took 0.071664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000529 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Textures/Paint_08.png
-  artifactKey: Guid(c97f406d11c78464793fb1addeadba6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Textures/Paint_08.png using Guid(c97f406d11c78464793fb1addeadba6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '7a9abb477afcb6c0ead23a67398fab23') in 0.050794 seconds 
-  Import took 0.066468 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000496 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Textures/Paint_02.png
-  artifactKey: Guid(b76c561ffb1a2184f836ef29aaa4c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Textures/Paint_02.png using Guid(b76c561ffb1a2184f836ef29aaa4c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'f95bc16df15d8af27686b66065f91208') in 0.045883 seconds 
-  Import took 0.060981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000656 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Textures/Paint_10.png
-  artifactKey: Guid(19fe3c7d3d5fd664a94be865633843e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Textures/Paint_10.png using Guid(19fe3c7d3d5fd664a94be865633843e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '2bc9db5602c7c863e1fc2dac545988db') in 0.049409 seconds 
-  Import took 0.064592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000554 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Textures/Paint_04.png
-  artifactKey: Guid(6452a48f5eaab1f4ab43586f35b73c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Textures/Paint_04.png using Guid(6452a48f5eaab1f4ab43586f35b73c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '1f1149dad50cab5250779bd9197ead8f') in 0.045984 seconds 
-  Import took 0.062210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000515 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Textures/Paint_05.png
-  artifactKey: Guid(6608acc403b8e3046ad4c37b1ef48fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Textures/Paint_05.png using Guid(6608acc403b8e3046ad4c37b1ef48fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'a593fa4d05b598220a266614c0ed8cce') in 0.046434 seconds 
-  Import took 0.062771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000530 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Textures/Paint_07.png
-  artifactKey: Guid(0097a96f14875f541a004c5816f858da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Textures/Paint_07.png using Guid(0097a96f14875f541a004c5816f858da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '99af75f1d5ce765492ab844a61c2b82d') in 0.048303 seconds 
-  Import took 0.064139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000513 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Textures/Paint_03.png
-  artifactKey: Guid(2755801e92becb945bd57b5cbf77482b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Textures/Paint_03.png using Guid(2755801e92becb945bd57b5cbf77482b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'e6ba744bee29a5c4fcdb8a10d998d2cf') in 0.047161 seconds 
-  Import took 0.062621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000520 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Textures/Paint_09.png
-  artifactKey: Guid(38fa81545efe11a42b00d7d1e10af0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Textures/Paint_09.png using Guid(38fa81545efe11a42b00d7d1e10af0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '30a390d09d8ffc37ea607667a405f191') in 0.047002 seconds 
-  Import took 0.062520 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 370.925766 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Textures/Paint_02.png
-  artifactKey: Guid(b76c561ffb1a2184f836ef29aaa4c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Textures/Paint_02.png using Guid(b76c561ffb1a2184f836ef29aaa4c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'fdb2f1934e0249cf5c6cbb24b9dac8ea') in 0.116488 seconds 
-  Import took 0.228477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000611 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Textures/Paint_08.png
-  artifactKey: Guid(c97f406d11c78464793fb1addeadba6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Textures/Paint_08.png using Guid(c97f406d11c78464793fb1addeadba6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'd56575e88645f29a14db44d3ce8c5cb9') in 0.038110 seconds 
-  Import took 0.050714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.963065 seconds.
-  path: Assets/pizza-box (1).fbx
+  path: Assets/Objects/pizza-box (1).fbx
   artifactKey: Guid(9eed9ecc5716d4ffcb066456891347ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pizza-box (1).fbx using Guid(9eed9ecc5716d4ffcb066456891347ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86081d93bfac5cf243850ab4b7207c8c') in 0.190233 seconds 
-  Import took 0.203566 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.219711 seconds.
-  path: Assets/pizza-box (1).fbx
-  artifactKey: Guid(9eed9ecc5716d4ffcb066456891347ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pizza-box (1).fbx using Guid(9eed9ecc5716d4ffcb066456891347ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25570046140ec8fba6ce2c5b174a8a1') in 0.100283 seconds 
-  Import took 0.114289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 196.057947 seconds.
-  path: Assets/pizza-box (1).fbx
-  artifactKey: Guid(9eed9ecc5716d4ffcb066456891347ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pizza-box (1).fbx using Guid(9eed9ecc5716d4ffcb066456891347ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+Start importing Assets/Objects/pizza-box (1).fbx using Guid(9eed9ecc5716d4ffcb066456891347ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
 WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
 WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'c2cc8a39eedf71d6b19185ae801e10d5') in 0.230261 seconds 
-  Import took 0.342690 seconds .
+ -> (artifact id: '0bfa023ecaf6e8eed6c142ad0995d337') in 1.003545 seconds 
+  Import took 1.016987 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.040025 seconds.
-  path: Assets/textures
-  artifactKey: Guid(5b7662c0dfa2346b08b476e47028c435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures using Guid(5b7662c0dfa2346b08b476e47028c435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2814e75848ff18757d7295e631520e6') in 0.003213 seconds 
-  Import took 0.015478 seconds .
+  Time since last request: 7.409491 seconds.
+  path: Assets/Objects/corona.fbx
+  artifactKey: Guid(7264a0da4c713420d8dd2de0210cdac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/corona.fbx using Guid(7264a0da4c713420d8dd2de0210cdac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '6f908f236de8fbb49216c3733f9d0bae') in 0.065643 seconds 
+  Import took 0.077620 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.509772 seconds.
-  path: Assets/textures/14042_750 mL_Wine_Bottle_dfinal.jpg
-  artifactKey: Guid(2a1d193d51c094bdc9d5e50cc437a105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/14042_750 mL_Wine_Bottle_dfinal.jpg using Guid(2a1d193d51c094bdc9d5e50cc437a105) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'beac70736eb37fc5c4e676a8ed6c837e') in 0.064531 seconds 
-  Import took 0.077884 seconds .
+  Time since last request: 5.249064 seconds.
+  path: Assets/Objects/textures 1
+  artifactKey: Guid(f9f676367088749b3bd89d74c9856c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/textures 1 using Guid(f9f676367088749b3bd89d74c9856c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9741e815140af19dd8e2fb40c165015a') in 0.001780 seconds 
+  Import took 0.011275 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/textures/Fingerprints004_OVERLAY_VAR1_3K.jpg
-  artifactKey: Guid(0e29de68ad8584599aa3647827c8a018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/Fingerprints004_OVERLAY_VAR1_3K.jpg using Guid(0e29de68ad8584599aa3647827c8a018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '588095bb246be86962e78358d6b0ae53') in 0.174161 seconds 
-  Import took 0.186591 seconds .
+  Time since last request: 0.363658 seconds.
+  path: Assets/Objects/textures 1/14042_750 mL_Wine_Bottle_dfinal.jpg
+  artifactKey: Guid(16abf49e40fb84d0797c4096a5795de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/textures 1/14042_750 mL_Wine_Bottle_dfinal.jpg using Guid(16abf49e40fb84d0797c4096a5795de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'b3405af241044cefb2f204dc3997e543') in 0.795928 seconds 
+  Import took 0.810992 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/textures/BotellaText.jpg
-  artifactKey: Guid(5d6d5119eac8f4773bd0daf0e5657cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/BotellaText.jpg using Guid(5d6d5119eac8f4773bd0daf0e5657cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '0eedf081cbfe432df2261abe99759549') in 0.035531 seconds 
-  Import took 0.047510 seconds .
+  Time since last request: 0.000278 seconds.
+  path: Assets/Objects/textures 1/Pizza_box.jpg
+  artifactKey: Guid(b4be08aeedad441f8b54312c6ac27f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/textures 1/Pizza_box.jpg using Guid(b4be08aeedad441f8b54312c6ac27f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '4da384409d5d1552b7a83affc57bba64') in 0.022212 seconds 
+  Import took 0.031755 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/textures/nutrition-label.png
-  artifactKey: Guid(1f57b5de57fff41ada141e197cd844bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/nutrition-label.png using Guid(1f57b5de57fff41ada141e197cd844bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '7e5c36a496aa0011d8b422fe2d51572c') in 0.026392 seconds 
-  Import took 0.039300 seconds .
+  Time since last request: 0.000222 seconds.
+  path: Assets/Objects/textures 1/dairy-free.jpeg
+  artifactKey: Guid(c10cc778f739843f09b46b5d280aaa6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/textures 1/dairy-free.jpeg using Guid(c10cc778f739843f09b46b5d280aaa6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '06958a1dcd9befe41e6ca58497683e69') in 0.127039 seconds 
+  Import took 0.140339 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/textures/Pizza_box.jpg
-  artifactKey: Guid(1b20174e52db147839dd61477a1ee27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/Pizza_box.jpg using Guid(1b20174e52db147839dd61477a1ee27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '2936a4fab67150e29298a3bf52bd84be') in 0.033189 seconds 
-  Import took 0.046709 seconds .
+  Time since last request: 0.000320 seconds.
+  path: Assets/Objects/textures 1/BotellaText.jpg
+  artifactKey: Guid(17b25351574f24382bf0a9af7280aceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/textures 1/BotellaText.jpg using Guid(17b25351574f24382bf0a9af7280aceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '346c529e8915606f9938970594aa0ea4') in 0.024333 seconds 
+  Import took 0.033323 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000497 seconds.
-  path: Assets/textures/dairy-free.jpeg
-  artifactKey: Guid(ab8239cf03e5a467999fb667a85c3830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/textures/dairy-free.jpeg using Guid(ab8239cf03e5a467999fb667a85c3830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '5b1979c6bf8577639530636741175414') in 0.306587 seconds 
-  Import took 0.325601 seconds .
+  Time since last request: 0.000280 seconds.
+  path: Assets/Objects/textures 1/nutrition-label-2.png
+  artifactKey: Guid(1ed3fcd0cb7ce4ea3abe13504f638bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/textures 1/nutrition-label-2.png using Guid(1ed3fcd0cb7ce4ea3abe13504f638bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '493327b8e8e5dc0903c5a35487a78208') in 0.744419 seconds 
+  Import took 0.756795 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.421742 seconds.
-  path: Assets/CreatedObjectws
-  artifactKey: Guid(a086ceeab55ec45508a4d8a89c8a6cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CreatedObjectws using Guid(a086ceeab55ec45508a4d8a89c8a6cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7bc6c56920321001075851793694a53') in 0.002542 seconds 
-  Import took 0.015248 seconds .
+  Time since last request: 0.000210 seconds.
+  path: Assets/Objects/textures 1/Fingerprints004_OVERLAY_VAR1_3K.jpg
+  artifactKey: Guid(af525051ae3e24dc388f779b6788de60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/textures 1/Fingerprints004_OVERLAY_VAR1_3K.jpg using Guid(af525051ae3e24dc388f779b6788de60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'cb5da0bed826c003e863fb46d3378d36') in 0.061547 seconds 
+  Import took 0.070833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.376122 seconds.
+  path: Assets/Objects/corona.fbx
+  artifactKey: Guid(7264a0da4c713420d8dd2de0210cdac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/corona.fbx using Guid(7264a0da4c713420d8dd2de0210cdac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '57cf21de2c8879875f182caf3a6c82c8') in 0.063517 seconds 
+  Import took 0.073520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Objects/pizza-box (1).fbx
+  artifactKey: Guid(9eed9ecc5716d4ffcb066456891347ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/pizza-box (1).fbx using Guid(9eed9ecc5716d4ffcb066456891347ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '730a2a746158c257f446ae124b0df2dc') in 0.096454 seconds 
+  Import took 0.107151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.018534 seconds.
+  path: Assets/Objects/corona.fbx
+  artifactKey: Guid(7264a0da4c713420d8dd2de0210cdac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/corona.fbx using Guid(7264a0da4c713420d8dd2de0210cdac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '5850e0cd1dd9a98b520a1868cf1cc61b') in 0.055682 seconds 
+  Import took 0.066379 seconds .
 
 ========================================================================
 Received Prepare
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 61.18 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 34.54 ms, found 6 plugins.
 Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
   Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
   Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
-Preloading 1 native plugins for Editor in 7.92 ms.
+Preloading 1 native plugins for Editor in 1.95 ms.
 Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 0.61 GB.
-System memory in use after: 0.61 GB.
+System memory in use before: 354.9 MB.
+System memory in use after: 355.1 MB.
 
-Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 5289.
-Total: 191.048030 ms (FindLiveObjects: 3.688808 ms CreateObjectMapping: 0.679882 ms MarkObjects: 186.336202 ms  DeleteObjects: 0.341048 ms)
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 5288.
+Total: 38.556273 ms (FindLiveObjects: 0.909528 ms CreateObjectMapping: 0.282515 ms MarkObjects: 37.179220 ms  DeleteObjects: 0.184003 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1341,190 +305,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 48.90 ms, found 6 plugins.
-Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
-  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
-  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
-Preloading 1 native plugins for Editor in 4.29 ms.
-Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 0.61 GB.
-System memory in use after: 0.61 GB.
-
-Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 5289.
-Total: 132.655164 ms (FindLiveObjects: 4.018631 ms CreateObjectMapping: 0.588876 ms MarkObjects: 126.726449 ms  DeleteObjects: 1.318669 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
 Received Import Request.
-  Time since last request: 1333.621520 seconds.
-  path: Assets/CreatedObjects
-  artifactKey: Guid(a086ceeab55ec45508a4d8a89c8a6cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CreatedObjects using Guid(a086ceeab55ec45508a4d8a89c8a6cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64366991fb18d5d968007a7fe4c31615') in 0.038606 seconds 
-  Import took 0.418860 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.758275 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Meshes
-  artifactKey: Guid(e4f035c9d180f3649bf3d9a103b80b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Meshes using Guid(e4f035c9d180f3649bf3d9a103b80b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e7ad2cadbb28744bc155c4723f4304') in 0.006676 seconds 
-  Import took 0.033358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.775554 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Textures
-  artifactKey: Guid(5efb0cc7165ad544cbe3f896c930d749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Textures using Guid(5efb0cc7165ad544cbe3f896c930d749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b9a03b612f4b8a6d84be2d8872016d') in 0.006292 seconds 
-  Import took 0.034083 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.763731 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Textures/Paint_03.png
-  artifactKey: Guid(2755801e92becb945bd57b5cbf77482b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Textures/Paint_03.png using Guid(2755801e92becb945bd57b5cbf77482b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'a27f5a3d37da47328fc4873b8dcff59e') in 0.396591 seconds 
-  Import took 0.423295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000650 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Textures/Paint_06.png
-  artifactKey: Guid(70d022ad94241a94086f65ba40287e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Textures/Paint_06.png using Guid(70d022ad94241a94086f65ba40287e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '171341c72649261910b53417b7ebe5f5') in 0.074109 seconds 
-  Import took 0.097605 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000884 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Textures/Paint_10.png
-  artifactKey: Guid(19fe3c7d3d5fd664a94be865633843e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Textures/Paint_10.png using Guid(19fe3c7d3d5fd664a94be865633843e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '26edff3861dafc60e9c9f59535d16fe7') in 0.199495 seconds 
-  Import took 0.263778 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001461 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Textures/Paint_04.png
-  artifactKey: Guid(6452a48f5eaab1f4ab43586f35b73c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Textures/Paint_04.png using Guid(6452a48f5eaab1f4ab43586f35b73c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '3e66a0d353cf3a0220d940d6ee0f7915') in 0.090106 seconds 
-  Import took 0.121581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000812 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Textures/Paint_09.png
-  artifactKey: Guid(38fa81545efe11a42b00d7d1e10af0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Textures/Paint_09.png using Guid(38fa81545efe11a42b00d7d1e10af0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '8e08f672f9d3e71615d994094b482044') in 0.094887 seconds 
-  Import took 0.134493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.374002 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Textures/Paint_01.png
-  artifactKey: Guid(9660de3cf62147f45b25e22b6ab97ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Textures/Paint_01.png using Guid(9660de3cf62147f45b25e22b6ab97ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'dc4d03e83fd52719d7b49d3e392e34b8') in 0.063785 seconds 
-  Import took 0.085116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000888 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Textures/Paint_05.png
-  artifactKey: Guid(6608acc403b8e3046ad4c37b1ef48fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Textures/Paint_05.png using Guid(6608acc403b8e3046ad4c37b1ef48fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'e92b5171d066af2d65d83b0e9087922f') in 0.057382 seconds 
-  Import took 0.078289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000472 seconds.
-  path: Assets/3Dfrk/Frames with pictures/Textures/Paint_07.png
-  artifactKey: Guid(0097a96f14875f541a004c5816f858da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3Dfrk/Frames with pictures/Textures/Paint_07.png using Guid(0097a96f14875f541a004c5816f858da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '056478dfbc7c9f9333869d4fbd71cd50') in 0.061364 seconds 
-  Import took 0.077991 seconds .
+  Time since last request: 1510.152804 seconds.
+  path: Assets/Objects/Food Pack Mixed/Scenes
+  artifactKey: Guid(bee32557b69c80545af00409fce12cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Food Pack Mixed/Scenes using Guid(bee32557b69c80545af00409fce12cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5604b8b4fdc410acfe2b47d3c87d18') in 0.009514 seconds 
+  Import took 0.125146 seconds .
 
 ========================================================================
 Received Prepare
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 40.17 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 31.31 ms, found 6 plugins.
 Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
   Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
   Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
-Preloading 1 native plugins for Editor in 4.79 ms.
+Preloading 1 native plugins for Editor in 1.04 ms.
 Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 0.61 GB.
-System memory in use after: 0.61 GB.
+System memory in use before: 354.7 MB.
+System memory in use after: 355.0 MB.
 
-Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 5289.
-Total: 72.339969 ms (FindLiveObjects: 1.394165 ms CreateObjectMapping: 0.423077 ms MarkObjects: 69.740279 ms  DeleteObjects: 0.780726 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 45.70 ms, found 6 plugins.
-Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
-  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
-  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
-Preloading 1 native plugins for Editor in 6.16 ms.
-Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 0.61 GB.
-System memory in use after: 0.61 GB.
-
-Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 5289.
-Total: 75.093344 ms (FindLiveObjects: 2.685213 ms CreateObjectMapping: 0.592602 ms MarkObjects: 71.420017 ms  DeleteObjects: 0.393678 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 42.96 ms, found 6 plugins.
-Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
-  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
-  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
-Preloading 1 native plugins for Editor in 2.83 ms.
-Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 0.61 GB.
-System memory in use after: 0.61 GB.
-
-Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 5289.
-Total: 67.257195 ms (FindLiveObjects: 2.973943 ms CreateObjectMapping: 0.434819 ms MarkObjects: 62.983917 ms  DeleteObjects: 0.862782 ms)
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 5288.
+Total: 25.020608 ms (FindLiveObjects: 0.609103 ms CreateObjectMapping: 0.250888 ms MarkObjects: 24.060121 ms  DeleteObjects: 0.099736 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
