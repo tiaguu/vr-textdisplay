@@ -22,15 +22,15 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62395
+63527
 Successfully changed project path to: /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay
 /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 163.84 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 185.60 ms, found 6 plugins.
 Plugins: Couldn't open Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
   Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
   Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
-Preloading 1 native plugins for Editor in 0.98 ms.
+Preloading 1 native plugins for Editor in 2.28 ms.
 Initialize engine version: 2020.3.23f1 (c5d91304a876)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets
@@ -41,93 +41,93 @@ Version:  4.1 ATI-4.9.48
 GLES:     0
  GL_ARB_blend_func_extended GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_ES2_compatibility GL_ARB_explicit_attrib_location GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader5 GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_occlusion_query2 GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_subroutine GL_ARB_shading_language_include GL_ARB_tessellation_shader GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_swizzle GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_vertex_attrib_64bit GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_depth_bounds_test GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB_decode GL_APPLE_client_storage GL_APPLE_container_object_shareable G
 L_APPLE_flush_render GL_APPLE_object_purgeable GL_APPLE_rgb_422 GL_APPLE_row_bytes GL_APPLE_texture_range GL_ATI_texture_mirror_once GL_NV_texture_barrier
-OPENGL LOG: Creating OpenGL 4.1 graphics device ; Context level  <OpenGL 4.1> ; Context handle 1635934208
+OPENGL LOG: Creating OpenGL 4.1 graphics device ; Context level  <OpenGL 4.1> ; Context handle 2122877440
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56807
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56005
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000557 seconds.
+Registered in 0.003152 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 138.26 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 127.23 ms, found 6 plugins.
 Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
   Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
   Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
-Preloading 1 native plugins for Editor in 0.81 ms.
+Preloading 1 native plugins for Editor in 0.59 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.727 seconds
+- Completed reload, in  0.682 seconds
 Domain Reload Profiling:
-	ReloadAssembly (727ms)
-		BeginReloadAssembly (48ms)
+	ReloadAssembly (682ms)
+		BeginReloadAssembly (45ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (601ms)
-			LoadAssemblies (47ms)
+		EndReloadAssembly (562ms)
+			LoadAssemblies (46ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (184ms)
+			SetupTypeCache (180ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (296ms)
+			SetupLoadedEditorAssemblies (262ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (139ms)
-				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (112ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				RefreshPlugins (128ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.018933 seconds.
+Registered in 0.018073 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 136.99 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 119.73 ms, found 6 plugins.
 Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
   Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
   Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
-Preloading 1 native plugins for Editor in 0.73 ms.
+Preloading 1 native plugins for Editor in 0.64 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.849 seconds
+- Completed reload, in  1.782 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1850ms)
-		BeginReloadAssembly (152ms)
+	ReloadAssembly (1783ms)
+		BeginReloadAssembly (145ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1632ms)
-			LoadAssemblies (99ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1579ms)
+			LoadAssemblies (159ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (505ms)
+			SetupTypeCache (423ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (110ms)
-			SetupLoadedEditorAssemblies (789ms)
+			RebuildScriptCaches (107ms)
+			SetupLoadedEditorAssemblies (757ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (138ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (515ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				RefreshPlugins (120ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (503ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.073453 seconds.
+Validating Project structure ... 0.076164 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.161636 seconds.
+Upgrading shader files ...0.179494 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -138,24 +138,24 @@ RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter:
 RefreshProfiler: Total: 0.000ms
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 Initializing Unity extensions:
-2022-12-27 10:19:03.544 Unity[37807:1451243] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fb16dc82ff0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-12-27 10:19:03.555 Unity[37807:1451243] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fb16d84e420 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-12-27 11:09:08.163 Unity[39005:1494135] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f8e8932f4e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-12-27 11:09:08.175 Unity[39005:1494135] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f8e8950a020 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 2.02 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 1.50 ms, found 6 plugins.
 Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
   Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
   Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
-Preloading 1 native plugins for Editor in 1.01 ms.
+Preloading 1 native plugins for Editor in 0.67 ms.
 Unloading 4824 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 222.9 MB.
 System memory in use after: 222.7 MB.
 
 Unloading 1042 unused Assets to reduce memory usage. Loaded Objects now: 5276.
-Total: 7.743231 ms (FindLiveObjects: 0.819120 ms CreateObjectMapping: 0.469291 ms MarkObjects: 5.188957 ms  DeleteObjects: 1.264500 ms)
+Total: 5.767322 ms (FindLiveObjects: 0.617574 ms CreateObjectMapping: 0.324495 ms MarkObjects: 3.879283 ms  DeleteObjects: 0.945181 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -169,159 +169,619 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Objects/meat-can
-  artifactKey: Guid(c93a75066bb25492ab81ec948c5a3d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/meat-can using Guid(c93a75066bb25492ab81ec948c5a3d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92f9c881a005c1e1b9fad6cb0e097f6') in 0.008639 seconds 
-  Import took 0.020814 seconds .
+  path: Assets/Objects/school/Prefabs/props/book3.prefab
+  artifactKey: Guid(0c6751314cb92ff49980ac423b66ecfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/book3.prefab using Guid(0c6751314cb92ff49980ac423b66ecfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'cb27fea33e79f171349352381676f09d') in 0.302200 seconds 
+  Import took 0.317855 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Objects/meat-can/MeatCan.blend
-  artifactKey: Guid(716b44cf8dd69458eafcba01db26e5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/meat-can/MeatCan.blend using Guid(716b44cf8dd69458eafcba01db26e5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'c2b5cf8c5e900f46b517f5b8fe9fb4d2') in 0.609050 seconds 
-  Import took 0.624742 seconds .
+  Time since last request: 0.000342 seconds.
+  path: Assets/Objects/school/Prefabs/props/board.prefab
+  artifactKey: Guid(adb1204842363d949b4b739100f86523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/board.prefab using Guid(adb1204842363d949b4b739100f86523) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '52ad78fa55619447e7b61c6fb6518a2c') in 0.016573 seconds 
+  Import took 0.025618 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Objects/meat-can/MeatCan.fbx
-  artifactKey: Guid(f9198d608438b402aacd689791de774b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/meat-can/MeatCan.fbx using Guid(f9198d608438b402aacd689791de774b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '134f5e35e1c2a59c496a75cc3a22d471') in 1.017153 seconds 
-  Import took 1.031731 seconds .
+  Time since last request: 0.000330 seconds.
+  path: Assets/Objects/school/Prefabs/props/tray.prefab
+  artifactKey: Guid(985e26fbc81357349904fd1b56692048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/tray.prefab using Guid(985e26fbc81357349904fd1b56692048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '5cda22547cf9debbed59d6bb985d5da0') in 0.013895 seconds 
+  Import took 0.022797 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 368.519440 seconds.
-  path: Assets/Objects/meat-can/textures
-  artifactKey: Guid(5741e31cc6bb3425e9d5fa2c018f9c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/meat-can/textures using Guid(5741e31cc6bb3425e9d5fa2c018f9c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e656fbc192160c93555b8c0cc2a2b3') in 0.002470 seconds 
-  Import took 0.012783 seconds .
+  Time since last request: 0.000239 seconds.
+  path: Assets/Objects/school/Prefabs/props/sheet3.prefab
+  artifactKey: Guid(5f0122993f7c5324d972bf997e494ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/sheet3.prefab using Guid(5f0122993f7c5324d972bf997e494ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'effdf67042c339402f0391cc2ea117aa') in 0.015548 seconds 
+  Import took 0.025028 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.010186 seconds.
-  path: Assets/Objects/meat-can/textures/meat-label-1.jpg
-  artifactKey: Guid(6510e4b92ddde42bb9c2f02f93aae8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/meat-can/textures/meat-label-1.jpg using Guid(6510e4b92ddde42bb9c2f02f93aae8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '29642f9054a7fcfb5733ea1d5162fe73') in 0.768316 seconds 
-  Import took 0.781584 seconds .
+  Time since last request: 0.000350 seconds.
+  path: Assets/Objects/school/Prefabs/props/computer1.prefab
+  artifactKey: Guid(8430fd56cfcb15941a1f31ea7f8f1915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/computer1.prefab using Guid(8430fd56cfcb15941a1f31ea7f8f1915) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'fad26d6ac41819c56b7cb66021bf12c5') in 0.019905 seconds 
+  Import took 0.029540 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/Objects/meat-can/textures/meat-label-2.jpg
-  artifactKey: Guid(daaa61a7694114ec29c5e87d06c00019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/meat-can/textures/meat-label-2.jpg using Guid(daaa61a7694114ec29c5e87d06c00019) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'd02b9f7e83399982eea53ff62d84b4c2') in 0.031911 seconds 
-  Import took 0.041781 seconds .
+  Time since last request: 0.000326 seconds.
+  path: Assets/Objects/school/Prefabs/props/locker1.prefab
+  artifactKey: Guid(7d65db92ee1ad5644a8177816885460b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/locker1.prefab using Guid(7d65db92ee1ad5644a8177816885460b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'b649d46f48f4adc3ef6a0fb357a1ac47') in 0.015456 seconds 
+  Import took 0.025181 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 63.552421 seconds.
-  path: Assets/Objects/meat-can/textures/meat-label-1 1.jpg
-  artifactKey: Guid(638dbb38d573a4c39804549a3dc06a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/meat-can/textures/meat-label-1 1.jpg using Guid(638dbb38d573a4c39804549a3dc06a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'f4fd45a4851b21a18baf66b898aa0bfd') in 0.021275 seconds 
-  Import took 0.032480 seconds .
+  Time since last request: 0.000230 seconds.
+  path: Assets/Objects/school/Prefabs/props/book8.prefab
+  artifactKey: Guid(945770b7f59f57549bb3e854e77a1de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/book8.prefab using Guid(945770b7f59f57549bb3e854e77a1de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '0d8955d405120645377ff84350669fe4') in 0.018163 seconds 
+  Import took 0.028058 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.879958 seconds.
-  path: Assets/Objects/meat-can/textures/meat-label-1 1.jpg
-  artifactKey: Guid(638dbb38d573a4c39804549a3dc06a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/meat-can/textures/meat-label-1 1.jpg using Guid(638dbb38d573a4c39804549a3dc06a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'c54063bc0eec58a041dbfc4a1e49aa6a') in 0.034995 seconds 
-  Import took 0.045915 seconds .
+  Time since last request: 0.000234 seconds.
+  path: Assets/Objects/school/Prefabs/props/board2_2 1.prefab
+  artifactKey: Guid(fe495e6bdadd4254199eb7ad0b26898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/board2_2 1.prefab using Guid(fe495e6bdadd4254199eb7ad0b26898d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '18d757d89c22b67f7ad56500d8d488d7') in 0.015160 seconds 
+  Import took 0.024443 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 306.490211 seconds.
-  path: Assets/Objects/pineapple-can
-  artifactKey: Guid(4ac73c023334248688daa323425a820c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/pineapple-can using Guid(4ac73c023334248688daa323425a820c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0869d5dc1da87c860f047ea66fd18941') in 0.001785 seconds 
-  Import took 0.011398 seconds .
+  Time since last request: 0.000295 seconds.
+  path: Assets/Objects/school/Prefabs/props/board2_1.prefab
+  artifactKey: Guid(b3341dfb909e87841afc69dcda0971e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/board2_1.prefab using Guid(b3341dfb909e87841afc69dcda0971e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '4e62ba653791cc89621d54aa3709a5a3') in 0.015100 seconds 
+  Import took 0.023742 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.416356 seconds.
-  path: Assets/Objects/pineapple-can/pinneaple-can.fbx
-  artifactKey: Guid(e5c43691f0eab4db9a533f68a6dde074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/pineapple-can/pinneaple-can.fbx using Guid(e5c43691f0eab4db9a533f68a6dde074) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'de69cf6556d6255b6111436b895f5da9') in 0.097428 seconds 
-  Import took 0.107657 seconds .
+  Time since last request: 0.000306 seconds.
+  path: Assets/Objects/school/Prefabs/props/board2_2.prefab
+  artifactKey: Guid(f16c1a01fe11a1c4499b6704e5007d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/board2_2.prefab using Guid(f16c1a01fe11a1c4499b6704e5007d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'ab1413e53d23e70bb27679067b9ba3f4') in 0.014125 seconds 
+  Import took 0.023577 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 147.309972 seconds.
-  path: Assets/Objects/pineapple-can/textures
-  artifactKey: Guid(9318a0e2ea6904836864bda29b704ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/pineapple-can/textures using Guid(9318a0e2ea6904836864bda29b704ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9148244c8e68756e933e4c1532996bc8') in 0.001206 seconds 
-  Import took 0.011099 seconds .
+  Time since last request: 0.000343 seconds.
+  path: Assets/Objects/school/Prefabs/props/book15.prefab
+  artifactKey: Guid(eb1f778dad1ad1243a12348ffbf99b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/book15.prefab using Guid(eb1f778dad1ad1243a12348ffbf99b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '8d8aad33de047a6c679ffe219ba8eae3') in 0.014788 seconds 
+  Import took 0.024553 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.419351 seconds.
-  path: Assets/Objects/pineapple-can/textures/pinneaple-label-1.jpeg
-  artifactKey: Guid(44aac35333125459aa47c09edf9a9d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/pineapple-can/textures/pinneaple-label-1.jpeg using Guid(44aac35333125459aa47c09edf9a9d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '90dda44c4cf19169a196ce3aa1a16c49') in 0.121138 seconds 
-  Import took 0.133441 seconds .
+  Time since last request: 0.000299 seconds.
+  path: Assets/Objects/school/Prefabs/props/a laptop.prefab
+  artifactKey: Guid(ec15f5ae191975f4d8de236356aaec36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/a laptop.prefab using Guid(ec15f5ae191975f4d8de236356aaec36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '15fc91585a5242485567fc887ebd05d9') in 0.016127 seconds 
+  Import took 0.025605 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Objects/pineapple-can/textures/pinneaple-label-2.jpeg
-  artifactKey: Guid(5834755a502b14a77bc4b32d796accfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/pineapple-can/textures/pinneaple-label-2.jpeg using Guid(5834755a502b14a77bc4b32d796accfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '5b6d0b5fcb4a9d73d8431662d41932c4') in 0.014252 seconds 
-  Import took 0.023308 seconds .
+  Time since last request: 0.000321 seconds.
+  path: Assets/Objects/school/Prefabs/props/book16.prefab
+  artifactKey: Guid(c0acf536785cb4e4fba0b089e2ecd662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/book16.prefab using Guid(c0acf536785cb4e4fba0b089e2ecd662) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '5a3fa25b0ee4a7f7c857246bc0fa4990') in 0.024784 seconds 
+  Import took 0.034281 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.230619 seconds.
-  path: Assets/Objects/pineapple-can/textures/pinneaple-label-1 1.jpeg
-  artifactKey: Guid(1d20753965d28448d8fe0acfa1cea17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/pineapple-can/textures/pinneaple-label-1 1.jpeg using Guid(1d20753965d28448d8fe0acfa1cea17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'e97015922061aa19c46fbe8a923a33ad') in 0.020749 seconds 
-  Import took 0.029246 seconds .
+  Time since last request: 0.000311 seconds.
+  path: Assets/Objects/school/Prefabs/props/book12.prefab
+  artifactKey: Guid(70c302f8c134149459c53486998e3785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/book12.prefab using Guid(70c302f8c134149459c53486998e3785) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '75be76b473918d409b731b073cc7bd94') in 0.015307 seconds 
+  Import took 0.024927 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.162007 seconds.
-  path: Assets/Objects/pineapple-can/textures/pinneaple-label-1 1.jpeg
-  artifactKey: Guid(1d20753965d28448d8fe0acfa1cea17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/pineapple-can/textures/pinneaple-label-1 1.jpeg using Guid(1d20753965d28448d8fe0acfa1cea17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '16dfb818d816306c863eed0f494da17d') in 0.016904 seconds 
-  Import took 0.027094 seconds .
+  Time since last request: 0.000309 seconds.
+  path: Assets/Objects/school/Prefabs/props/locker_1.prefab
+  artifactKey: Guid(4af7da65169b48c47b3b86e7d6323744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/locker_1.prefab using Guid(4af7da65169b48c47b3b86e7d6323744) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '861175fd7f3997763cbe8bc6e1690fe9') in 0.016380 seconds 
+  Import took 0.026196 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 150.653023 seconds.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Objects/school/Prefabs/props/sheet4.prefab
+  artifactKey: Guid(2335e4e4480899f46aabd539af49b014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/sheet4.prefab using Guid(2335e4e4480899f46aabd539af49b014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'fb0e8fc343436af5ebc53757ffef6c69') in 0.017878 seconds 
+  Import took 0.028707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Objects/school/Prefabs/props/book10.prefab
+  artifactKey: Guid(131fbc6a61b707e43a1a9cc37ce27999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/book10.prefab using Guid(131fbc6a61b707e43a1a9cc37ce27999) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'afb1493ae0d8822bb49e493eb0270e16') in 0.018987 seconds 
+  Import took 0.030990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Objects/school/Prefabs/props/book7.prefab
+  artifactKey: Guid(b4335bd599706fd488e027758d9ff789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/book7.prefab using Guid(b4335bd599706fd488e027758d9ff789) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '6bb5825370de3a83e39d766c9cdf2a31') in 0.042951 seconds 
+  Import took 0.053400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Objects/school/Prefabs/props/locker_2.prefab
+  artifactKey: Guid(62b11dd993aa50e42a0890a734908161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/locker_2.prefab using Guid(62b11dd993aa50e42a0890a734908161) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'acc44561ecd2d3e8ec4831fbcbe0ffea') in 0.015149 seconds 
+  Import took 0.023987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Objects/school/Prefabs/props/locker.prefab
+  artifactKey: Guid(c2eb0536a6bbfb94590dc4ae7eb803da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/locker.prefab using Guid(c2eb0536a6bbfb94590dc4ae7eb803da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'de7c5a78512741c002a33358b6df7acc') in 0.015063 seconds 
+  Import took 0.023873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Objects/school/Prefabs/props/table2.prefab
+  artifactKey: Guid(91dc1ab115d03f04b930f9e619fb953f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/table2.prefab using Guid(91dc1ab115d03f04b930f9e619fb953f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '255a82edc699e357443e870a1d48f932') in 0.015389 seconds 
+  Import took 0.025243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Objects/school/Prefabs/props/wall001.prefab
+  artifactKey: Guid(7218b9728928b894eb1799b26af67733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/wall001.prefab using Guid(7218b9728928b894eb1799b26af67733) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'ebc072bf964a77b14714485ffbbf8036') in 0.017307 seconds 
+  Import took 0.027119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Objects/school/Prefabs/props/fire1.prefab
+  artifactKey: Guid(4bc798f368a5f214ba2ad9cc17bc9b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/fire1.prefab using Guid(4bc798f368a5f214ba2ad9cc17bc9b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'a53370f30b8b1b4714685cbd9e5430bd') in 0.015421 seconds 
+  Import took 0.024663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Objects/school/Prefabs/props/locker2.prefab
+  artifactKey: Guid(5c2334af47df6454c9e2eaadbfaa2cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/locker2.prefab using Guid(5c2334af47df6454c9e2eaadbfaa2cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'b3829f323d5084460ff1c1e5f00144ab') in 0.015401 seconds 
+  Import took 0.024892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Objects/school/Prefabs/props/book14.prefab
+  artifactKey: Guid(e14704938d821e14d8561c810691b64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/book14.prefab using Guid(e14704938d821e14d8561c810691b64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '1026e0ff8cac9c7bf4e5cdb432c9d362') in 0.014904 seconds 
+  Import took 0.024444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Objects/school/Prefabs/props/board1.prefab
+  artifactKey: Guid(883fda0b73369fe41bc2ed262338a937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/board1.prefab using Guid(883fda0b73369fe41bc2ed262338a937) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'ce2cce6a753043ce011f9dff8c27a65c') in 0.015504 seconds 
+  Import took 0.025385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Objects/school/Prefabs/props/book4.prefab
+  artifactKey: Guid(e71f88c62ec6ec749b9da3c66033409a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/book4.prefab using Guid(e71f88c62ec6ec749b9da3c66033409a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '34cdba4a55560406ceca4775ef7ade81') in 0.024250 seconds 
+  Import took 0.033444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Objects/school/Prefabs/props/projector.prefab
+  artifactKey: Guid(832c4b3dc1fa4234a995fcbdcce28404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/projector.prefab using Guid(832c4b3dc1fa4234a995fcbdcce28404) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'ee7d3970f942c6dbdc34268d89c00e55') in 0.014447 seconds 
+  Import took 0.023387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Objects/school/Prefabs/props/computer3.prefab
+  artifactKey: Guid(eae94336b6079e8469f20b721b0474cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/computer3.prefab using Guid(eae94336b6079e8469f20b721b0474cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'b0b0115498a04e070528777fb3bb4fbf') in 0.015446 seconds 
+  Import took 0.024333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Objects/school/Prefabs/props/a door.prefab
+  artifactKey: Guid(c46afe706fb2cde4883f7afaeaa67a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/a door.prefab using Guid(c46afe706fb2cde4883f7afaeaa67a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'a793ff29b004cef5db3a4b1d1e0da08c') in 0.015152 seconds 
+  Import took 0.024953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Objects/school/Prefabs/props/book6.prefab
+  artifactKey: Guid(911f1ee2448dad14e8a9f895e1f5621e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/book6.prefab using Guid(911f1ee2448dad14e8a9f895e1f5621e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '4bc6b759f96de13310406db0f9ef7777') in 0.015266 seconds 
+  Import took 0.025028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Objects/school/Prefabs/props/board2_1 1.prefab
+  artifactKey: Guid(1b8fb463cd54a3347a65b53783a48afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/board2_1 1.prefab using Guid(1b8fb463cd54a3347a65b53783a48afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'e169738f19eba9501e48cc9572bc293e') in 0.014362 seconds 
+  Import took 0.023227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Objects/school/Prefabs/props/sheet2.prefab
+  artifactKey: Guid(8e7a095165f9b1042be929150f3913f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/sheet2.prefab using Guid(8e7a095165f9b1042be929150f3913f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '1cf18a0f423bf348c7178dadc1480ab2') in 0.014792 seconds 
+  Import took 0.023582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Objects/school/Prefabs/props/book11.prefab
+  artifactKey: Guid(26790024c0a59a4459d89f66a856faa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/book11.prefab using Guid(26790024c0a59a4459d89f66a856faa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '06b2ae29d166fb04c0f85c56fbefb9fe') in 0.016195 seconds 
+  Import took 0.025828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Objects/school/Prefabs/props/rack.prefab
+  artifactKey: Guid(4f9d36e206efd9c408c4487f1d8c65af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/rack.prefab using Guid(4f9d36e206efd9c408c4487f1d8c65af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'ccc0fb6a1001bcf36091088d8250186d') in 0.016843 seconds 
+  Import took 0.026479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Objects/school/Prefabs/props/wall4.prefab
+  artifactKey: Guid(2d0d657c1182735489e24a5ce302b99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/wall4.prefab using Guid(2d0d657c1182735489e24a5ce302b99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c43fa973fc2a4b8acb2714f3b1ec41c9') in 0.014279 seconds 
+  Import took 0.025204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Objects/school/Prefabs/props/book5.prefab
+  artifactKey: Guid(e0a660c9a16ebaa409248e8f87be4086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/book5.prefab using Guid(e0a660c9a16ebaa409248e8f87be4086) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '5e79ba26ab1a2093105170044373f3cc') in 0.014909 seconds 
+  Import took 0.026348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Objects/school/Prefabs/props/board2.prefab
+  artifactKey: Guid(a5387be5615ab204780e8b46f7b3a16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/board2.prefab using Guid(a5387be5615ab204780e8b46f7b3a16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '4dcf43dc853cabf757a066765e77ea22') in 0.014362 seconds 
+  Import took 0.022872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Objects/school/Prefabs/props/book13.prefab
+  artifactKey: Guid(a2d69f66b9cfcbb41adcd641f6757042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/book13.prefab using Guid(a2d69f66b9cfcbb41adcd641f6757042) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'dc150179a9e4e48a465bdfa79ff26e88') in 0.014879 seconds 
+  Import took 0.024422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Objects/school/Prefabs/props/chair1.prefab
+  artifactKey: Guid(991e8973513e2ad408232c1afeb3a9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/chair1.prefab using Guid(991e8973513e2ad408232c1afeb3a9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '2be45033ee7d930804c381c2fc03c7dd') in 0.015078 seconds 
+  Import took 0.024325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Objects/school/Prefabs/props/wall4 (2).prefab
+  artifactKey: Guid(4af663313fdc5d04889a6710948329c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/wall4 (2).prefab using Guid(4af663313fdc5d04889a6710948329c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'ec2ff22db9678b4664169f167726f890') in 0.014350 seconds 
+  Import took 0.023050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Objects/school/Prefabs/props/wall.prefab
+  artifactKey: Guid(d8553808ed1fd2a41982e26a8f099b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/wall.prefab using Guid(d8553808ed1fd2a41982e26a8f099b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'dbaba0a2f0c77453dfa58859e78166e8') in 0.013605 seconds 
+  Import took 0.022909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Objects/school/Prefabs/props/bus.prefab
+  artifactKey: Guid(876481ee83f852b49901155a05d155d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/bus.prefab using Guid(876481ee83f852b49901155a05d155d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'cbd18eba6315f1047ef0e4f3ce27226c') in 0.017415 seconds 
+  Import took 0.026698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Objects/school/Prefabs/props/rack1.prefab
+  artifactKey: Guid(6e8ee28b611f0274dba1617e8888f8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/rack1.prefab using Guid(6e8ee28b611f0274dba1617e8888f8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'a2a208d72e048bf86cfef38e61159b12') in 0.028856 seconds 
+  Import took 0.039434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Objects/school/Prefabs/props/computer.prefab
+  artifactKey: Guid(95b7030fe576ba84e930b6af82eb2738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/computer.prefab using Guid(95b7030fe576ba84e930b6af82eb2738) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '89bc02309e8afffb6f54e2b22de2eb53') in 0.014904 seconds 
+  Import took 0.023949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Objects/school/Prefabs/props/fire.prefab
+  artifactKey: Guid(9b95a03e0e9ba914da4f1c7fb5a46ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/fire.prefab using Guid(9b95a03e0e9ba914da4f1c7fb5a46ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'f1db89a6878ed555bb512468b44834c5') in 0.015635 seconds 
+  Import took 0.025000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Objects/school/Prefabs/props/speaker.prefab
+  artifactKey: Guid(5510dbd75f54c1547bcfa4dfea8c488d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/speaker.prefab using Guid(5510dbd75f54c1547bcfa4dfea8c488d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '5d659d686da333ab8f8c675b47c938cb') in 0.015796 seconds 
+  Import took 0.025284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Objects/school/Prefabs/props/board2_2 (1).prefab
+  artifactKey: Guid(a92085e8cbdc326489fbf320d2c745d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/board2_2 (1).prefab using Guid(a92085e8cbdc326489fbf320d2c745d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '530e25419d1df6ddd6fcf22607e4e0b4') in 0.014361 seconds 
+  Import took 0.024136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Objects/school/Prefabs/props/computer2.prefab
+  artifactKey: Guid(c9909a6c1892fd04cb840ad5329e558e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/computer2.prefab using Guid(c9909a6c1892fd04cb840ad5329e558e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'd46e6d6e1374918a6ef16ce2920f7798') in 0.015555 seconds 
+  Import took 0.025106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Objects/school/Prefabs/props/wall2.prefab
+  artifactKey: Guid(935ba91ea5459eb4d8917d5e94bc3ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/wall2.prefab using Guid(935ba91ea5459eb4d8917d5e94bc3ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '8472d31848f4b307ff9945c99118abf4') in 0.022135 seconds 
+  Import took 0.031058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Objects/school/Prefabs/props/sheet1.prefab
+  artifactKey: Guid(7b5504fec8a3cf94d8d4814735af756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/sheet1.prefab using Guid(7b5504fec8a3cf94d8d4814735af756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c7491fdbb6cbcc3dc9aa127ba667af90') in 0.014474 seconds 
+  Import took 0.023100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Objects/school/Prefabs/props/book2.prefab
+  artifactKey: Guid(72c1249698983ad4988f693663fa1e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/book2.prefab using Guid(72c1249698983ad4988f693663fa1e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '263cc4a3f91c13ef031b1e2c4af933cb') in 0.019902 seconds 
+  Import took 0.029189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Objects/school/Prefabs/props/locker_4.prefab
+  artifactKey: Guid(685803a48200879419cbf0f982932eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/locker_4.prefab using Guid(685803a48200879419cbf0f982932eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'fa88fb5fb77497ed3de14615700e4ffc') in 0.014120 seconds 
+  Import took 0.023522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Objects/school/Prefabs/props/book9.prefab
+  artifactKey: Guid(d74135662f1cf2049b7ad36d7a117892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/book9.prefab using Guid(d74135662f1cf2049b7ad36d7a117892) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'a397158053b58598c8da2a96f37d1a5d') in 0.013230 seconds 
+  Import took 0.022222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Objects/school/Prefabs/props/book.prefab
+  artifactKey: Guid(924e5835feca5774baf83fefc095dad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/book.prefab using Guid(924e5835feca5774baf83fefc095dad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '267b1f27d7502b2970fdcbd8adf9fa7a') in 0.014009 seconds 
+  Import took 0.022645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Objects/school/Prefabs/props/table1.prefab
+  artifactKey: Guid(006691b87ee6ce7429992a2a172ecf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/table1.prefab using Guid(006691b87ee6ce7429992a2a172ecf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '79d7b920ffedaeef22cbcb1afd230a89') in 0.014723 seconds 
+  Import took 0.023992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Objects/school/Prefabs/props/jalousie.prefab
+  artifactKey: Guid(f67ff9d455ede6d448bdf23bc838c236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/jalousie.prefab using Guid(f67ff9d455ede6d448bdf23bc838c236) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '67e510967946c02f1ca1a21b49a2aad9') in 0.015864 seconds 
+  Import took 0.024482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Objects/school/Prefabs/props/locker_3.prefab
+  artifactKey: Guid(0480571cf64de034d9d908aa51157db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/locker_3.prefab using Guid(0480571cf64de034d9d908aa51157db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '8a3755fd8896da9ddbcb4d05d2c66fab') in 0.015584 seconds 
+  Import took 0.025004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Objects/school/Prefabs/props/showcase.prefab
+  artifactKey: Guid(07f95da47d340af46b603c05bffc1cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/showcase.prefab using Guid(07f95da47d340af46b603c05bffc1cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'e9284764aa9af13e760314d2563af624') in 0.015802 seconds 
+  Import took 0.025301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Objects/school/Prefabs/props/wall4 (1).prefab
+  artifactKey: Guid(288b229db858c114299d1bf70ffc95cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/wall4 (1).prefab using Guid(288b229db858c114299d1bf70ffc95cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '045e74a290f029e2a770c32cb46234be') in 0.014650 seconds 
+  Import took 0.024301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Objects/school/Prefabs/props/table3.prefab
+  artifactKey: Guid(6d513e3e97508a3429bc5eac2b8b7145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/table3.prefab using Guid(6d513e3e97508a3429bc5eac2b8b7145) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'e29f6ec7d1eefa6593cfc87b88e2ee32') in 0.014238 seconds 
+  Import took 0.023281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Objects/school/Prefabs/props/locker_5.prefab
+  artifactKey: Guid(a0fb9817dd6493340b32e1c86fadfc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/locker_5.prefab using Guid(a0fb9817dd6493340b32e1c86fadfc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '59fb6eb6372d93bcbf01a7efee2118ca') in 0.023515 seconds 
+  Import took 0.032084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Objects/school/Prefabs/props/chair.prefab
+  artifactKey: Guid(5a652a60006d6ec46980e623412396f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/chair.prefab using Guid(5a652a60006d6ec46980e623412396f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '02811b92f2a6c3df030df69e0a4dc661') in 0.014676 seconds 
+  Import took 0.023659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Objects/school/Prefabs/props/a door1.prefab
+  artifactKey: Guid(54fc4a62ccb7e304f910c5444e778f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/a door1.prefab using Guid(54fc4a62ccb7e304f910c5444e778f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '1a0242bc390adde00983fe3deacb123c') in 0.016601 seconds 
+  Import took 0.025678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Objects/school/Prefabs/props/sheet.prefab
+  artifactKey: Guid(9b19a44036ac44243a6c69a62bcfdbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/sheet.prefab using Guid(9b19a44036ac44243a6c69a62bcfdbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '125504bb9c9eb1779a5cffc258b0d358') in 0.014199 seconds 
+  Import took 0.023851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Objects/school/Prefabs/props/book1.prefab
+  artifactKey: Guid(f35bd34b33d70144ca22184a194ae6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/book1.prefab using Guid(f35bd34b33d70144ca22184a194ae6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '3e8ba48b76a4d79990dc4d4f7a453791') in 0.013822 seconds 
+  Import took 0.022856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Objects/school/Prefabs/props/button.prefab
+  artifactKey: Guid(97ae661c4f5ec684bb00f569e3b354b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/school/Prefabs/props/button.prefab using Guid(97ae661c4f5ec684bb00f569e3b354b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '75249bf34b2289a8c4db28a14f3cc377') in 0.014179 seconds 
+  Import took 0.023174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 376.818714 seconds.
   path: Assets/Scenes/GroceryStore.unity
   artifactKey: Guid(7b55deeb9cda14b428bbef299650d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GroceryStore.unity using Guid(7b55deeb9cda14b428bbef299650d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8736b526ebb86bdcc80c445ef8a785b4') in 0.002588 seconds 
-  Import took 0.012316 seconds .
+Start importing Assets/Scenes/GroceryStore.unity using Guid(7b55deeb9cda14b428bbef299650d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa8de09b53f9fa5fed12039cf89a65f') in 0.002501 seconds 
+  Import took 0.016629 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.437481 seconds.
+  Time since last request: 0.543893 seconds.
   path: Assets/Scenes/Condition2.unity
   artifactKey: Guid(9a18a4823d5c542c78cb966155cfea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Condition2.unity using Guid(9a18a4823d5c542c78cb966155cfea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b898443adaa457349014e9450671769') in 0.003732 seconds 
-  Import took 0.014273 seconds .
+Start importing Assets/Scenes/Condition2.unity using Guid(9a18a4823d5c542c78cb966155cfea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2c488ede29873ae90ff40adb481d24') in 0.005322 seconds 
+  Import took 0.019746 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 22.712773 seconds.
-  path: Assets/Scenes/Condition2.unity
-  artifactKey: Guid(9a18a4823d5c542c78cb966155cfea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Condition2.unity using Guid(9a18a4823d5c542c78cb966155cfea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d3ceb3bfb63c32c34497a53853c6f4') in 0.003291 seconds 
-  Import took 0.012231 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
