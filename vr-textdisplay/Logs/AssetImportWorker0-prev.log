@@ -22,15 +22,15 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62113
+57308
 Successfully changed project path to: /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay
 /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 182.81 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 203.03 ms, found 6 plugins.
 Plugins: Couldn't open Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
   Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
   Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
-Preloading 1 native plugins for Editor in 1.32 ms.
+Preloading 1 native plugins for Editor in 2.81 ms.
 Initialize engine version: 2020.3.23f1 (c5d91304a876)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets
@@ -41,93 +41,93 @@ Version:  4.1 ATI-4.9.48
 GLES:     0
  GL_ARB_blend_func_extended GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_ES2_compatibility GL_ARB_explicit_attrib_location GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader5 GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_occlusion_query2 GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_subroutine GL_ARB_shading_language_include GL_ARB_tessellation_shader GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_swizzle GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_vertex_attrib_64bit GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_depth_bounds_test GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB_decode GL_APPLE_client_storage GL_APPLE_container_object_shareable G
 L_APPLE_flush_render GL_APPLE_object_purgeable GL_APPLE_rgb_422 GL_APPLE_row_bytes GL_APPLE_texture_range GL_ATI_texture_mirror_once GL_NV_texture_barrier
-OPENGL LOG: Creating OpenGL 4.1 graphics device ; Context level  <OpenGL 4.1> ; Context handle -679000064
+OPENGL LOG: Creating OpenGL 4.1 graphics device ; Context level  <OpenGL 4.1> ; Context handle 1661230080
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56963
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56409
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000673 seconds.
+Registered in 0.002863 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 144.21 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 144.11 ms, found 6 plugins.
 Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
   Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
   Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
-Preloading 1 native plugins for Editor in 0.76 ms.
+Preloading 1 native plugins for Editor in 0.74 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.783 seconds
+- Completed reload, in  0.756 seconds
 Domain Reload Profiling:
-	ReloadAssembly (783ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (757ms)
+		BeginReloadAssembly (51ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (645ms)
-			LoadAssemblies (52ms)
+		EndReloadAssembly (620ms)
+			LoadAssemblies (51ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (203ms)
+			SetupTypeCache (177ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (303ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (305ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (145ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (110ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011213 seconds.
+Registered in 0.018366 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 146.58 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 124.20 ms, found 6 plugins.
 Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
   Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
   Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
-Preloading 1 native plugins for Editor in 0.78 ms.
+Preloading 1 native plugins for Editor in 0.66 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.993 seconds
+- Completed reload, in  1.868 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1994ms)
-		BeginReloadAssembly (175ms)
+	ReloadAssembly (1870ms)
+		BeginReloadAssembly (145ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (1747ms)
-			LoadAssemblies (105ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1662ms)
+			LoadAssemblies (172ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (506ms)
+			SetupTypeCache (435ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (135ms)
-			SetupLoadedEditorAssemblies (840ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (810ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (147ms)
-				BeforeProcessingInitializeOnLoad (121ms)
-				ProcessInitializeOnLoadAttributes (543ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				RefreshPlugins (125ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (550ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.085777 seconds.
+Validating Project structure ... 0.167019 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.170221 seconds.
+Upgrading shader files ...0.160583 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -140,22 +140,22 @@ Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 Initializing Unity extensions:
-2022-12-16 15:41:37.257 Unity[90963:17897235] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7ff3e182cc80 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-12-16 15:41:37.269 Unity[90963:17897235] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7ff3e0e846b0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-12-18 14:32:18.391 Unity[23409:19271744] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f966cb73730 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-12-18 14:32:18.403 Unity[23409:19271744] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f966b78e1c0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 1.79 ms, found 6 plugins.
 Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
   Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
   Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
-Preloading 1 native plugins for Editor in 1.19 ms.
-Unloading 4792 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.9 MB.
-System memory in use after: 150.6 MB.
+Preloading 1 native plugins for Editor in 0.87 ms.
+Unloading 4809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.3 MB.
+System memory in use after: 151.0 MB.
 
-Unloading 1018 unused Assets to reduce memory usage. Loaded Objects now: 5243.
-Total: 5.371292 ms (FindLiveObjects: 0.630200 ms CreateObjectMapping: 0.327517 ms MarkObjects: 3.582718 ms  DeleteObjects: 0.829713 ms)
+Unloading 1031 unused Assets to reduce memory usage. Loaded Objects now: 5260.
+Total: 6.235338 ms (FindLiveObjects: 0.623389 ms CreateObjectMapping: 0.312236 ms MarkObjects: 4.215533 ms  DeleteObjects: 1.083308 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -169,130 +169,360 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Objects/pizza-box (1).fbx
-  artifactKey: Guid(9eed9ecc5716d4ffcb066456891347ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/pizza-box (1).fbx using Guid(9eed9ecc5716d4ffcb066456891347ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '0bfa023ecaf6e8eed6c142ad0995d337') in 1.003545 seconds 
-  Import took 1.016987 seconds .
+  path: Assets/ExampleAssets/Tutorial/Images/1-welcome-screen-image.png
+  artifactKey: Guid(11e34d76fce7843be984510eca5c9139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Tutorial/Images/1-welcome-screen-image.png using Guid(11e34d76fce7843be984510eca5c9139) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '6ed465390637c6bbd5a8dc19ad83e897') in 0.971907 seconds 
+  Import took 0.986252 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.409491 seconds.
-  path: Assets/Objects/corona.fbx
-  artifactKey: Guid(7264a0da4c713420d8dd2de0210cdac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/corona.fbx using Guid(7264a0da4c713420d8dd2de0210cdac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '6f908f236de8fbb49216c3733f9d0bae') in 0.065643 seconds 
-  Import took 0.077620 seconds .
+  Time since last request: 0.000323 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding.png
+  artifactKey: Guid(958a10dec4f3a4764bb345b0aa03510b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding.png using Guid(958a10dec4f3a4764bb345b0aa03510b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7e4f44d9ab4e15845884a5d6be9803') in 0.015818 seconds 
+  Import took 0.025033 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.249064 seconds.
-  path: Assets/Objects/textures 1
-  artifactKey: Guid(f9f676367088749b3bd89d74c9856c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/textures 1 using Guid(f9f676367088749b3bd89d74c9856c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9741e815140af19dd8e2fb40c165015a') in 0.001780 seconds 
-  Import took 0.011275 seconds .
+  Time since last request: 0.000363 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689eb278a16249f3b89764b7f72ccaeb') in 0.984640 seconds 
+  Import took 0.996905 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.363658 seconds.
-  path: Assets/Objects/textures 1/14042_750 mL_Wine_Bottle_dfinal.jpg
-  artifactKey: Guid(16abf49e40fb84d0797c4096a5795de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/textures 1/14042_750 mL_Wine_Bottle_dfinal.jpg using Guid(16abf49e40fb84d0797c4096a5795de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'b3405af241044cefb2f204dc3997e543') in 0.795928 seconds 
-  Import took 0.810992 seconds .
+  Time since last request: 0.000265 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis@4x.png
+  artifactKey: Guid(a940917cc397643afb071010cb2143d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis@4x.png using Guid(a940917cc397643afb071010cb2143d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ef6244a3c97941aaaeb4e3fb4b0bae') in 0.009268 seconds 
+  Import took 0.018801 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Objects/textures 1/Pizza_box.jpg
-  artifactKey: Guid(b4be08aeedad441f8b54312c6ac27f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/textures 1/Pizza_box.jpg using Guid(b4be08aeedad441f8b54312c6ac27f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '4da384409d5d1552b7a83affc57bba64') in 0.022212 seconds 
-  Import took 0.031755 seconds .
+  Time since last request: 0.000305 seconds.
+  path: Assets/Objects/Kitchen Asset/FBX/Apple/Materials/Apple_Apple_AlbedoTransparency.tga
+  artifactKey: Guid(20507eb05f5ee4949a38db524451257f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Kitchen Asset/FBX/Apple/Materials/Apple_Apple_AlbedoTransparency.tga using Guid(20507eb05f5ee4949a38db524451257f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'e14556eeb330cc594c700cedc3f12eb3') in 0.793496 seconds 
+  Import took 0.807389 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Objects/textures 1/dairy-free.jpeg
-  artifactKey: Guid(c10cc778f739843f09b46b5d280aaa6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/textures 1/dairy-free.jpeg using Guid(c10cc778f739843f09b46b5d280aaa6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '06958a1dcd9befe41e6ca58497683e69') in 0.127039 seconds 
-  Import took 0.140339 seconds .
+  Time since last request: 0.000304 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/Resources/icons/arrow-forward@2x.png
+  artifactKey: Guid(2d956ea264136457aa8d3850655f9f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/Resources/icons/arrow-forward@2x.png using Guid(2d956ea264136457aa8d3850655f9f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c6841dd8dc9e569ff7a54a5fe5dc94d2') in 0.014873 seconds 
+  Import took 0.023265 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Objects/textures 1/BotellaText.jpg
-  artifactKey: Guid(17b25351574f24382bf0a9af7280aceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/textures 1/BotellaText.jpg using Guid(17b25351574f24382bf0a9af7280aceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '346c529e8915606f9938970594aa0ea4') in 0.024333 seconds 
-  Import took 0.033323 seconds .
+  Time since last request: 0.000357 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/Resources/icons/back-arrow.png
+  artifactKey: Guid(3f54ac0d5e8e149e2b351b7f02e5da41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/Resources/icons/back-arrow.png using Guid(3f54ac0d5e8e149e2b351b7f02e5da41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '7d02a49d3e619d4a689a7d83be6175a8') in 0.013614 seconds 
+  Import took 0.022091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackground.png
+  artifactKey: Guid(ce5f11cd993284c4f9c54f854bdc8c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackground.png using Guid(ce5f11cd993284c4f9c54f854bdc8c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab204cfd430fb7aeb3831a9eb4bc142d') in 0.019794 seconds 
+  Import took 0.028785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@3x.png
+  artifactKey: Guid(8be1fbf4b24de44c99840805bdae9e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@3x.png using Guid(8be1fbf4b24de44c99840805bdae9e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5733cbd44adf2ce538c1603115fbb1c') in 0.013599 seconds 
+  Import took 0.022609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@2x.png
+  artifactKey: Guid(bb5fa99d6e9434c9ebf101c956021ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@2x.png using Guid(bb5fa99d6e9434c9ebf101c956021ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed30a3e3bd3fa229caf6790baeadb58') in 0.011689 seconds 
+  Import took 0.020350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@4x.png
+  artifactKey: Guid(862c5ca31844d4a6d9aa804af982ce65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@4x.png using Guid(862c5ca31844d4a6d9aa804af982ce65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d66132cb8276b70d83b063987c98e2b') in 0.014076 seconds 
+  Import took 0.023122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/UI/Tutorial Icons/add-prefab.png
+  artifactKey: Guid(f77139ca467af4d0e840eeec0e62f121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/UI/Tutorial Icons/add-prefab.png using Guid(f77139ca467af4d0e840eeec0e62f121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df3a1538dab70ea8a5d2ac1c1ac8fb3') in 0.010274 seconds 
+  Import took 0.019296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis@3x.png
+  artifactKey: Guid(2e27a82b5cc4e4ef98cbef2d0b324aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis@3x.png using Guid(2e27a82b5cc4e4ef98cbef2d0b324aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86008084dd9e2e16899b058c3b906762') in 0.013393 seconds 
+  Import took 0.022557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/Resources/icons/arrow-forward.png
+  artifactKey: Guid(4b830eb38c8d34f38acec2bc6fad2e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/Resources/icons/arrow-forward.png using Guid(4b830eb38c8d34f38acec2bc6fad2e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '78c4ea4b99445d72c19b989edca284db') in 0.013192 seconds 
+  Import took 0.022040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackground.png
+  artifactKey: Guid(c4b66e31395c54087a2fbc13ae7e0f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackground.png using Guid(c4b66e31395c54087a2fbc13ae7e0f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2db86ee0f78849944249d0cc6e7fa35') in 0.041028 seconds 
+  Import took 0.050049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Objects/Kitchen Asset/FBX/Apple/Materials/Apple_Apple_AO.tga
+  artifactKey: Guid(878c375dadc7a10499616f8bac2dea8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Kitchen Asset/FBX/Apple/Materials/Apple_Apple_AO.tga using Guid(878c375dadc7a10499616f8bac2dea8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '7ce1ba329bea560ded8f8c5de9414b11') in 0.044966 seconds 
+  Import took 0.053524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/UI/back-arrow.png
+  artifactKey: Guid(9e28232f2adf7408e8f1a58ebc86484e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/UI/back-arrow.png using Guid(9e28232f2adf7408e8f1a58ebc86484e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c7e1219dc29d8fa3572fe8eedb3969d1') in 0.011397 seconds 
+  Import took 0.019875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis.png
+  artifactKey: Guid(7e853779c8fed4ebf917a0de21c79602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis.png using Guid(7e853779c8fed4ebf917a0de21c79602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b9baee086dc072b3735d3554bdd2f2') in 0.010585 seconds 
+  Import took 0.019227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(09a428b0643fa46d08d0f9c6410c45c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(09a428b0643fa46d08d0f9c6410c45c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ef961f9a994993d70caf1d1469ca33') in 0.002633 seconds 
+  Import took 0.011142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Objects/Food Pack Mixed/Textures/AlmondKernel.png
+  artifactKey: Guid(82250fdadde3be04fa32f12c7bde30ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Food Pack Mixed/Textures/AlmondKernel.png using Guid(82250fdadde3be04fa32f12c7bde30ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '07ccb727f7ebb2149d7b45582f84aa5e') in 0.057766 seconds 
+  Import took 0.065640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/UI/arrow-forward@2x.png
+  artifactKey: Guid(51986b408c21e4bc39c1d90d48276e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/UI/arrow-forward@2x.png using Guid(51986b408c21e4bc39c1d90d48276e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '948c33c1c4df9857a9de31d395a39635') in 0.009624 seconds 
+  Import took 0.019013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark.png
+  artifactKey: Guid(8e3ec2dfd58b79842aa78376678a9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark.png using Guid(8e3ec2dfd58b79842aa78376678a9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec89b0fd60df546e88ad832546aff97') in 0.034287 seconds 
+  Import took 0.043523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackgroundWithoutBorder.png
+  artifactKey: Guid(cf632ed80bf1f46c980de6b1b8b903ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackgroundWithoutBorder.png using Guid(cf632ed80bf1f46c980de6b1b8b903ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e41dfb86ab6f1a05d7ffd5ed5ea15e6') in 0.011529 seconds 
+  Import took 0.020615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Objects/Kitchen Asset/FBX/Apple/Materials/Apple_Apple_MetallicSmoothness.tga
+  artifactKey: Guid(07a181cb5bd63ab40b9cbd777a91735e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Kitchen Asset/FBX/Apple/Materials/Apple_Apple_MetallicSmoothness.tga using Guid(07a181cb5bd63ab40b9cbd777a91735e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c350c265e1d6861780ffa112a5848023') in 0.051969 seconds 
+  Import took 0.060977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark.png
+  artifactKey: Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark.png using Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20bb826b09a5c7b7b984bfc53a11e5a2') in 0.017235 seconds 
+  Import took 0.025358 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000280 seconds.
-  path: Assets/Objects/textures 1/nutrition-label-2.png
-  artifactKey: Guid(1ed3fcd0cb7ce4ea3abe13504f638bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/textures 1/nutrition-label-2.png using Guid(1ed3fcd0cb7ce4ea3abe13504f638bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '493327b8e8e5dc0903c5a35487a78208') in 0.744419 seconds 
-  Import took 0.756795 seconds .
+  path: Packages/com.unity.learn.iet-framework/Editor/UI/Tutorial Icons/add-prefab@2x.png
+  artifactKey: Guid(cb88a5233232f48b6a3145ff433696a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/UI/Tutorial Icons/add-prefab@2x.png using Guid(cb88a5233232f48b6a3145ff433696a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0829d0347db0133e5418294e8b239a6b') in 0.013170 seconds 
+  Import took 0.022531 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Objects/textures 1/Fingerprints004_OVERLAY_VAR1_3K.jpg
-  artifactKey: Guid(af525051ae3e24dc388f779b6788de60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/textures 1/Fingerprints004_OVERLAY_VAR1_3K.jpg using Guid(af525051ae3e24dc388f779b6788de60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: 'cb5da0bed826c003e863fb46d3378d36') in 0.061547 seconds 
-  Import took 0.070833 seconds .
+  Time since last request: 0.000267 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark@2x.png
+  artifactKey: Guid(9c6313a5316f8a34b852bf94ff96e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark@2x.png using Guid(9c6313a5316f8a34b852bf94ff96e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769c69874e0388c8017f4e1761eae564') in 0.011538 seconds 
+  Import took 0.019978 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.376122 seconds.
-  path: Assets/Objects/corona.fbx
-  artifactKey: Guid(7264a0da4c713420d8dd2de0210cdac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/corona.fbx using Guid(7264a0da4c713420d8dd2de0210cdac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '57cf21de2c8879875f182caf3a6c82c8') in 0.063517 seconds 
-  Import took 0.073520 seconds .
+  Time since last request: 0.000285 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png
+  artifactKey: Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png using Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4fa8aab1732597e6b3d8200d87ea1e') in 0.013083 seconds 
+  Import took 0.022357 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Objects/pizza-box (1).fbx
-  artifactKey: Guid(9eed9ecc5716d4ffcb066456891347ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/pizza-box (1).fbx using Guid(9eed9ecc5716d4ffcb066456891347ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
-WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '730a2a746158c257f446ae124b0df2dc') in 0.096454 seconds 
-  Import took 0.107151 seconds .
+  Time since last request: 0.000281 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackgroundWithoutBorder.png
+  artifactKey: Guid(943deaaee9c9347e0a455aa208526c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackgroundWithoutBorder.png using Guid(943deaaee9c9347e0a455aa208526c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadafa5b3ff81c9d25f4f82bcfaa8a0f') in 0.010669 seconds 
+  Import took 0.019117 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.018534 seconds.
-  path: Assets/Objects/corona.fbx
-  artifactKey: Guid(7264a0da4c713420d8dd2de0210cdac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/corona.fbx using Guid(7264a0da4c713420d8dd2de0210cdac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
- -> (artifact id: '5850e0cd1dd9a98b520a1868cf1cc61b') in 0.055682 seconds 
-  Import took 0.066379 seconds .
+  Time since last request: 0.000319 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light@2x.png
+  artifactKey: Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light@2x.png using Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9388391debc8582cd05d8900bd4ab85d') in 0.012616 seconds 
+  Import took 0.021431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Objects/Kitchen Asset/FBX/Apple/Materials/Apple_Apple_Normal.tga
+  artifactKey: Guid(44048cde90ed6bd47bb5de500b77f4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Kitchen Asset/FBX/Apple/Materials/Apple_Apple_Normal.tga using Guid(44048cde90ed6bd47bb5de500b77f4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 UNorm format is not supported, decompressing texture
+ -> (artifact id: 'c0d2de3ebf15e2324d8cb90d4358a8df') in 0.061082 seconds 
+  Import took 0.070524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis@2x.png
+  artifactKey: Guid(d0006d51a864248adba0238883f8c71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis@2x.png using Guid(d0006d51a864248adba0238883f8c71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9f4c2845b43de6f82812bf54cb480a') in 0.012010 seconds 
+  Import took 0.020951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/aa.png
+  artifactKey: Guid(5c06354455999f94ea26114e261dde6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/aa.png using Guid(5c06354455999f94ea26114e261dde6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '5d8571b1743ffb917cb08de6f16012fc') in 0.014826 seconds 
+  Import took 0.023791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Packages/com.unity.learn.iet-framework/Editor/UI/arrow-forward.png
+  artifactKey: Guid(0b731f63d2d0f4495bd21ce764137ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.learn.iet-framework/Editor/UI/arrow-forward.png using Guid(0b731f63d2d0f4495bd21ce764137ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '3c98e5e97d669deb47f3b1f9ab4040c5') in 0.008799 seconds 
+  Import took 0.017679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light.png
+  artifactKey: Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light.png using Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2f04b7b8ece768f33d019a5d84f5de') in 0.012532 seconds 
+  Import took 0.021793 seconds .
 
 ========================================================================
 Received Prepare
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 34.54 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 23.25 ms, found 6 plugins.
 Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
   Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
   Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
-Preloading 1 native plugins for Editor in 1.95 ms.
+Preloading 1 native plugins for Editor in 0.77 ms.
 Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 354.9 MB.
-System memory in use after: 355.1 MB.
+System memory in use before: 310.9 MB.
+System memory in use after: 311.2 MB.
 
-Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 5288.
-Total: 38.556273 ms (FindLiveObjects: 0.909528 ms CreateObjectMapping: 0.282515 ms MarkObjects: 37.179220 ms  DeleteObjects: 0.184003 ms)
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 5311.
+Total: 5.637504 ms (FindLiveObjects: 0.501478 ms CreateObjectMapping: 0.272318 ms MarkObjects: 4.794492 ms  DeleteObjects: 0.068452 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 23.14 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.64 ms.
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 310.9 MB.
+System memory in use after: 311.2 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 5311.
+Total: 4.660055 ms (FindLiveObjects: 0.431677 ms CreateObjectMapping: 0.231082 ms MarkObjects: 3.939835 ms  DeleteObjects: 0.056915 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 26.02 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 1.54 ms.
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 310.9 MB.
+System memory in use after: 311.1 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 5311.
+Total: 14.628690 ms (FindLiveObjects: 0.733635 ms CreateObjectMapping: 0.300950 ms MarkObjects: 13.481706 ms  DeleteObjects: 0.111751 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -306,26 +536,101 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1510.152804 seconds.
-  path: Assets/Objects/Food Pack Mixed/Scenes
-  artifactKey: Guid(bee32557b69c80545af00409fce12cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Food Pack Mixed/Scenes using Guid(bee32557b69c80545af00409fce12cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5604b8b4fdc410acfe2b47d3c87d18') in 0.009514 seconds 
-  Import took 0.125146 seconds .
+  Time since last request: 2058.352945 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b4cbde9565bf190136f1148817e1ea') in 0.015845 seconds 
+  Import took 0.176379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.869524 seconds.
+  path: Assets/Scenes/GroceryStore.unity
+  artifactKey: Guid(7b55deeb9cda14b428bbef299650d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GroceryStore.unity using Guid(7b55deeb9cda14b428bbef299650d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef76301e0435170c9d37e950ac335431') in 0.067541 seconds 
+  Import took 0.077158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.447291 seconds.
+  path: Assets/Scenes/GroceryStore 1.unity
+  artifactKey: Guid(9a18a4823d5c542c78cb966155cfea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GroceryStore 1.unity using Guid(9a18a4823d5c542c78cb966155cfea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779183b12cf84564406a7db75bfaa393') in 0.004651 seconds 
+  Import took 0.014756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.483328 seconds.
+  path: Assets/Scenes/Object-mounted-labels Grocery store.unity
+  artifactKey: Guid(9a18a4823d5c542c78cb966155cfea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Object-mounted-labels Grocery store.unity using Guid(9a18a4823d5c542c78cb966155cfea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbb8fa49b8fc50f1d2b334b08c6a939') in 0.002928 seconds 
+  Import took 0.013609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.252967 seconds.
+  path: Assets/Scenes/GroceryStore.unity
+  artifactKey: Guid(7b55deeb9cda14b428bbef299650d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GroceryStore.unity using Guid(7b55deeb9cda14b428bbef299650d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04296055c6750d40a46b4e64d0b5ea9') in 0.004442 seconds 
+  Import took 0.013741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 202.259019 seconds.
+  path: Assets/Images/foodlabel.png
+  artifactKey: Guid(c7183027db051492ebd6cd03462239de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/foodlabel.png using Guid(c7183027db051492ebd6cd03462239de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'e08fb2a248ed085faad9472a29d98b4a') in 0.268371 seconds 
+  Import took 0.279345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.030215 seconds.
+  path: Assets/Objects/textures/dairy-free 1.jpeg
+  artifactKey: Guid(f29836ce6cc6e4e6ab99c21a44c4696e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/textures/dairy-free 1.jpeg using Guid(f29836ce6cc6e4e6ab99c21a44c4696e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '5309633b119cc91b6049257434c86d4d') in 0.808858 seconds 
+  Import took 0.823866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.746779 seconds.
+  path: Assets/Images/dairy-free 1.jpeg
+  artifactKey: Guid(f29836ce6cc6e4e6ab99c21a44c4696e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/dairy-free 1.jpeg using Guid(f29836ce6cc6e4e6ab99c21a44c4696e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'b20b5e92e21325ede5a35e45cdd2a48f') in 0.022496 seconds 
+  Import took 0.031498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 640.930494 seconds.
+  path: Assets/Scenes/GroceryStore.unity
+  artifactKey: Guid(7b55deeb9cda14b428bbef299650d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GroceryStore.unity using Guid(7b55deeb9cda14b428bbef299650d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b797da1faf1004e3850f1dc67effa2') in 0.004922 seconds 
+  Import took 0.015563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.587144 seconds.
+  path: Assets/Scenes/Object-mounted-labels Grocery store.unity
+  artifactKey: Guid(9a18a4823d5c542c78cb966155cfea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Object-mounted-labels Grocery store.unity using Guid(9a18a4823d5c542c78cb966155cfea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c929569f5b629b53a7e2fb03d998c326') in 0.008867 seconds 
+  Import took 0.018727 seconds .
 
 ========================================================================
 Received Prepare
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 31.31 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 33.43 ms, found 6 plugins.
 Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
   Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
   Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
-Preloading 1 native plugins for Editor in 1.04 ms.
+Preloading 1 native plugins for Editor in 1.47 ms.
 Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 354.7 MB.
-System memory in use after: 355.0 MB.
+System memory in use before: 389.3 MB.
+System memory in use after: 389.5 MB.
 
-Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 5288.
-Total: 25.020608 ms (FindLiveObjects: 0.609103 ms CreateObjectMapping: 0.250888 ms MarkObjects: 24.060121 ms  DeleteObjects: 0.099736 ms)
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 5315.
+Total: 33.749348 ms (FindLiveObjects: 0.938721 ms CreateObjectMapping: 0.286245 ms MarkObjects: 32.413942 ms  DeleteObjects: 0.109632 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -337,3 +642,953 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015805 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.64 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 2.00 ms.
+2022-12-18 15:54:34.919 Unity[23409:19271744] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f966b737be0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
+  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
+
+(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
+
+- Completed reload, in  2.305 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2312ms)
+		BeginReloadAssembly (329ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (204ms)
+		EndReloadAssembly (1909ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (690ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (813ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (218ms)
+				ProcessInitializeOnLoadAttributes (561ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.73 ms.
+Unloading 4683 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.50 GB.
+System memory in use after: 0.50 GB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 5333.
+Total: 5.142158 ms (FindLiveObjects: 0.534239 ms CreateObjectMapping: 0.216912 ms MarkObjects: 4.323299 ms  DeleteObjects: 0.066599 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.026203 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 1.84 ms.
+2022-12-18 16:22:51.099 Unity[23409:19271744] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f966b315200 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
+  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
+
+(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
+
+- Completed reload, in  1.864 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1865ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (105ms)
+		EndReloadAssembly (1599ms)
+			LoadAssemblies (190ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (462ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (714ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (162ms)
+				ProcessInitializeOnLoadAttributes (517ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.80 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.90 ms.
+Unloading 4683 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.50 GB.
+System memory in use after: 0.50 GB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5336.
+Total: 5.294249 ms (FindLiveObjects: 0.505646 ms CreateObjectMapping: 0.310512 ms MarkObjects: 4.414409 ms  DeleteObjects: 0.062369 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024336 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.90 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 1.14 ms.
+2022-12-18 16:25:48.212 Unity[23409:19271744] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f9669524fa0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
+  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
+
+(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
+
+- Completed reload, in  2.546 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2547ms)
+		BeginReloadAssembly (209ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (118ms)
+		EndReloadAssembly (2263ms)
+			LoadAssemblies (185ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (829ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (859ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (240ms)
+				ProcessInitializeOnLoadAttributes (577ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.65 ms.
+Unloading 4684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.51 GB.
+System memory in use after: 0.51 GB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5340.
+Total: 4.092136 ms (FindLiveObjects: 0.504460 ms CreateObjectMapping: 0.268974 ms MarkObjects: 3.262366 ms  DeleteObjects: 0.055540 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025219 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.83 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.68 ms.
+2022-12-18 16:30:09.969 Unity[23409:19271744] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f966720a420 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
+  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
+
+(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
+
+- Completed reload, in  1.687 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1687ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (87ms)
+		EndReloadAssembly (1441ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (461ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (597ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (421ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.85 ms.
+Unloading 4684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.51 GB.
+System memory in use after: 0.51 GB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5343.
+Total: 5.090706 ms (FindLiveObjects: 0.514978 ms CreateObjectMapping: 0.299341 ms MarkObjects: 4.210173 ms  DeleteObjects: 0.065374 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3965.123908 seconds.
+  path: Assets/SceneLoader.cs
+  artifactKey: Guid(1db7603086bf64a90aba9e39b6b8fa29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneLoader.cs using Guid(1db7603086bf64a90aba9e39b6b8fa29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fbf3f3e5e2b064f6026bc315384ea3') in 2.254987 seconds 
+  Import took 2.278217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.551738 seconds.
+  path: Assets/Scenes/Object-mounted-labels Grocery store.unity
+  artifactKey: Guid(9a18a4823d5c542c78cb966155cfea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Object-mounted-labels Grocery store.unity using Guid(9a18a4823d5c542c78cb966155cfea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efbf13e200772a807b755632531308bc') in 0.017168 seconds 
+  Import took 0.026702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.616649 seconds.
+  path: Assets/Scenes/GroceryStore.unity
+  artifactKey: Guid(7b55deeb9cda14b428bbef299650d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GroceryStore.unity using Guid(7b55deeb9cda14b428bbef299650d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82deffb7965630c389190513a2369904') in 0.001467 seconds 
+  Import took 0.010365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.893038 seconds.
+  path: Assets/Scenes/Condition2.unity
+  artifactKey: Guid(9a18a4823d5c542c78cb966155cfea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Condition2.unity using Guid(9a18a4823d5c542c78cb966155cfea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409b5ac6c8cff375616298df9ac2552a') in 0.002486 seconds 
+  Import took 0.011939 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 28.67 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 1.42 ms.
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 476.7 MB.
+System memory in use after: 476.9 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 5343.
+Total: 7.252981 ms (FindLiveObjects: 0.427695 ms CreateObjectMapping: 0.239673 ms MarkObjects: 6.508894 ms  DeleteObjects: 0.076111 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.026605 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.90 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 3.91 ms.
+2022-12-18 17:17:07.834 Unity[23409:19271744] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f96676ce9b0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
+  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
+
+(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
+
+- Completed reload, in  2.467 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2470ms)
+		BeginReloadAssembly (304ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (199ms)
+		EndReloadAssembly (2086ms)
+			LoadAssemblies (202ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (675ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (874ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (199ms)
+				ProcessInitializeOnLoadAttributes (623ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.58 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.80 ms.
+Unloading 4684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.59 GB.
+System memory in use after: 0.59 GB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5346.
+Total: 5.932193 ms (FindLiveObjects: 1.226288 ms CreateObjectMapping: 0.315281 ms MarkObjects: 4.314731 ms  DeleteObjects: 0.074806 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007325 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.63 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 1.75 ms.
+2022-12-18 17:19:00.624 Unity[23409:19271744] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f9669250fb0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
+  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
+
+(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
+
+- Completed reload, in  1.839 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1839ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (1597ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (512ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (728ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (169ms)
+				ProcessInitializeOnLoadAttributes (526ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.86 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.79 ms.
+Unloading 4684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.59 GB.
+System memory in use after: 0.59 GB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5349.
+Total: 5.555757 ms (FindLiveObjects: 0.587945 ms CreateObjectMapping: 0.264166 ms MarkObjects: 4.636353 ms  DeleteObjects: 0.066280 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2880.711642 seconds.
+  path: Assets/Scenes/GroceryStore.unity
+  artifactKey: Guid(7b55deeb9cda14b428bbef299650d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GroceryStore.unity using Guid(7b55deeb9cda14b428bbef299650d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d72a1c5f92884afe722905a107dbd5') in 0.018471 seconds 
+  Import took 0.036652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.621428 seconds.
+  path: Assets/SceneLoader.cs
+  artifactKey: Guid(1db7603086bf64a90aba9e39b6b8fa29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneLoader.cs using Guid(1db7603086bf64a90aba9e39b6b8fa29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b9ceea0c65847b0a42816ff3bcd2e0') in 0.016413 seconds 
+  Import took 0.026760 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020477 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.99 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.82 ms.
+2022-12-18 17:21:15.981 Unity[23409:19271744] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f966800c7f0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
+  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
+
+(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
+
+- Completed reload, in  1.673 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1673ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (1451ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (465ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (655ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (151ms)
+				ProcessInitializeOnLoadAttributes (476ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.68 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.75 ms.
+Unloading 4684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.59 GB.
+System memory in use after: 0.59 GB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5352.
+Total: 4.701219 ms (FindLiveObjects: 0.434498 ms CreateObjectMapping: 0.236418 ms MarkObjects: 3.974497 ms  DeleteObjects: 0.055005 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027208 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.81 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.89 ms.
+2022-12-18 17:25:02.264 Unity[23409:19271744] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f966c8c5b40 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
+  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
+
+(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
+
+- Completed reload, in  1.809 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1810ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (1595ms)
+			LoadAssemblies (174ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (461ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (705ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (178ms)
+				ProcessInitializeOnLoadAttributes (492ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.75 ms.
+Unloading 4684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.60 GB.
+System memory in use after: 0.60 GB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5355.
+Total: 5.178799 ms (FindLiveObjects: 0.540139 ms CreateObjectMapping: 0.228713 ms MarkObjects: 4.347593 ms  DeleteObjects: 0.061177 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020592 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.69 ms.
+2022-12-18 17:29:17.272 Unity[23409:19271744] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f966c8c4760 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
+  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
+
+(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
+
+- Completed reload, in  1.546 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1546ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1352ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (427ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (614ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (448ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.65 ms.
+Unloading 4684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.60 GB.
+System memory in use after: 0.60 GB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5358.
+Total: 4.357182 ms (FindLiveObjects: 0.594233 ms CreateObjectMapping: 0.221884 ms MarkObjects: 3.486788 ms  DeleteObjects: 0.053534 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007985 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.67 ms.
+2022-12-18 17:33:19.379 Unity[23409:19271744] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f9667244a60 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
+  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
+
+(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
+
+- Completed reload, in  1.773 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1773ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (1536ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (476ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (709ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (160ms)
+				ProcessInitializeOnLoadAttributes (518ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.59 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.86 ms.
+Unloading 4684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.60 GB.
+System memory in use after: 0.60 GB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5361.
+Total: 5.172625 ms (FindLiveObjects: 0.478012 ms CreateObjectMapping: 0.279605 ms MarkObjects: 4.350456 ms  DeleteObjects: 0.063524 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1066.914880 seconds.
+  path: Assets/Scenes/Condition2.unity
+  artifactKey: Guid(9a18a4823d5c542c78cb966155cfea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Condition2.unity using Guid(9a18a4823d5c542c78cb966155cfea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7baf47b6c2a4c500fa5066c3cbb9f9cc') in 0.017440 seconds 
+  Import took 0.032847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.166254 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(036f40545d2c54907bb7a6cae0e88d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(036f40545d2c54907bb7a6cae0e88d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145b6b826b0d0071e1bd01f75e10f9af') in 0.004318 seconds 
+  Import took 0.013117 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021092 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.65 ms.
+2022-12-18 17:38:15.842 Unity[23409:19271744] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f9669463570 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
+  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:443 
+
+(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
+
+- Completed reload, in  1.658 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1659ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (1457ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (453ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (646ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (475ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.68 ms.
+Unloading 4684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 0.61 GB.
+System memory in use after: 0.61 GB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5364.
+Total: 4.914921 ms (FindLiveObjects: 0.470853 ms CreateObjectMapping: 0.204721 ms MarkObjects: 4.179477 ms  DeleteObjects: 0.058947 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 78.518026 seconds.
+  path: Assets/Scenes/GroceryStore.unity
+  artifactKey: Guid(7b55deeb9cda14b428bbef299650d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GroceryStore.unity using Guid(7b55deeb9cda14b428bbef299650d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365cd0c6a50d4538f8efdc83b5f86eee') in 0.020599 seconds 
+  Import took 0.037093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.167893 seconds.
+  path: Assets/Scenes/Condition2.unity
+  artifactKey: Guid(9a18a4823d5c542c78cb966155cfea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Condition2.unity using Guid(9a18a4823d5c542c78cb966155cfea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce3c3d9a90feb684a1a14ce341df996') in 0.003529 seconds 
+  Import took 0.013468 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 7.28 ms, found 6 plugins.
+Plugins: Couldn't open /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, error: dlopen(/Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer, 0x0002): Library not loaded: @rpath/libthird-party_pffft_pffft.dylib
+  Referenced from: <CE136E4E-7D43-382C-A1D3-196C3170EB0E> /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer
+  Reason: tried: '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS@rpath/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/libthird-party_pffft_pffft.dylib' (no such file), '/usr/local/lib/libthird-party_pffft_pffft.dylib' (no such file), '/usr/lib/libthird-party_pffft_pffft.dylib' (no such file, not in dyld cache)
+Preloading 1 native plugins for Editor in 0.63 ms.
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 497.6 MB.
+System memory in use after: 497.9 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 5364.
+Total: 4.225604 ms (FindLiveObjects: 0.411768 ms CreateObjectMapping: 0.174295 ms MarkObjects: 3.571284 ms  DeleteObjects: 0.067339 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 371.402172 seconds.
+  path: Assets/Scenes/GroceryStore.unity
+  artifactKey: Guid(7b55deeb9cda14b428bbef299650d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GroceryStore.unity using Guid(7b55deeb9cda14b428bbef299650d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b73b56cc142475d2065ffbc220ac5be') in 0.011257 seconds 
+  Import took 0.024839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.705703 seconds.
+  path: Assets/Scenes/Condition2.unity
+  artifactKey: Guid(9a18a4823d5c542c78cb966155cfea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Condition2.unity using Guid(9a18a4823d5c542c78cb966155cfea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e2f1b01d4796143a5dd2e02e4c4f53') in 0.001822 seconds 
+  Import took 0.011225 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
