@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Checkout : MonoBehaviour
 {
@@ -30,6 +31,10 @@ public class Checkout : MonoBehaviour
             item2.sprite = checkmark;
             item2Counter++;
         }
+        if (item1Counter > 0 && item2Counter > 0)
+        {
+            SceneManager.LoadScene("Finish");
+        }
     }
 
     private void OnTriggerExit(Collider other)
@@ -43,14 +48,6 @@ public class Checkout : MonoBehaviour
         {
             item2Counter--;
             if (item2Counter == 0) item2.sprite = uncheckedCheckmark;
-        }
-    }
-
-    private void Update()
-    {
-        if(item1Counter > 0 && item2Counter > 0)
-        {
-            Debug.Log("Complete");
         }
     }
 }

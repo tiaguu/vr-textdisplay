@@ -3083,3 +3083,415 @@ Received Import Request.
 Start importing Assets/Scenes/Condition2.unity using Guid(9a18a4823d5c542c78cb966155cfea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616e2d403dee12344e8cf01ca7c6fcb1') in 0.033243 seconds 
   Import took 0.050507 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 920.303494 seconds.
+  path: Assets/Scenes/FinishScreen.unity
+  artifactKey: Guid(5674274b1a969415b8c2ca079a5be4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FinishScreen.unity using Guid(5674274b1a969415b8c2ca079a5be4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2938bd379a6f7fa336e7a0a4fdb91b3') in 0.003313 seconds 
+  Import took 0.016532 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017679 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.58 ms.
+2022-12-28 17:08:01.968 Unity[1249:14579] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f794c7d2f70 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
+  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:447 
+
+(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
+
+- Completed reload, in  1.541 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1542ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1347ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (417ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (623ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (450ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.65 ms.
+Unloading 4699 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 495.0 MB.
+System memory in use after: 495.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5305.
+Total: 5.011172 ms (FindLiveObjects: 0.416207 ms CreateObjectMapping: 0.220126 ms MarkObjects: 4.321082 ms  DeleteObjects: 0.052756 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 165.084732 seconds.
+  path: Assets/Scenes/FinishScreen.unity
+  artifactKey: Guid(5674274b1a969415b8c2ca079a5be4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FinishScreen.unity using Guid(5674274b1a969415b8c2ca079a5be4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252bf436e4da38f3655aa6dc9df2a540') in 0.029710 seconds 
+  Import took 0.045509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.247176 seconds.
+  path: Assets/Scenes/GroceryStore.unity
+  artifactKey: Guid(7b55deeb9cda14b428bbef299650d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GroceryStore.unity using Guid(7b55deeb9cda14b428bbef299650d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8732424aff6ec6d059b9107fc9b8d89') in 0.001809 seconds 
+  Import took 0.012249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.797194 seconds.
+  path: Assets/Scenes/GroceryStore 1.unity
+  artifactKey: Guid(efec05e956fd445de9f9fb023b8c3886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GroceryStore 1.unity using Guid(efec05e956fd445de9f9fb023b8c3886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3557e9f1577510f095b0ab3aa168ab16') in 0.002015 seconds 
+  Import took 0.012055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.185594 seconds.
+  path: Assets/Scenes/Finish.unity
+  artifactKey: Guid(efec05e956fd445de9f9fb023b8c3886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Finish.unity using Guid(efec05e956fd445de9f9fb023b8c3886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8f33bf0d012396977e96830a1272e0') in 0.001633 seconds 
+  Import took 0.012229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 469.364888 seconds.
+  path: Assets/Oculus/OculusProjectConfig.asset
+  artifactKey: Guid(e14687d047270df4e93e255698654446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/OculusProjectConfig.asset using Guid(e14687d047270df4e93e255698654446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eede4d46dfe55cc44d5b6e92234abeb2') in 0.013017 seconds 
+  Import took 0.023057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.964275 seconds.
+  path: Assets/Oculus/SampleFramework/Core
+  artifactKey: Guid(a6f70e53f5bf3f548b587fd2570d8f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core using Guid(a6f70e53f5bf3f548b587fd2570d8f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7e79aff9d4235e94ce67b0c9643b01') in 0.001327 seconds 
+  Import took 0.011715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.652398 seconds.
+  path: Assets/Oculus/SampleFramework/Core/CustomHands
+  artifactKey: Guid(a8bb45e7ef4481e4db0a4da3bf699032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/CustomHands using Guid(a8bb45e7ef4481e4db0a4da3bf699032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19f15cfbdb76b695ef6f807c01f9155') in 0.001244 seconds 
+  Import took 0.011444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.416936 seconds.
+  path: Assets/Oculus/SampleFramework/Core/DistanceGrab
+  artifactKey: Guid(871c41c2af3930445aedf13eae16f0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/DistanceGrab using Guid(871c41c2af3930445aedf13eae16f0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e48baad6c01a47fd28de0e6448f9000') in 0.001258 seconds 
+  Import took 0.010753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.361924 seconds.
+  path: Assets/Oculus/SampleFramework/Core/Firebase
+  artifactKey: Guid(4d13522c218811e429625edc09dae3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/Firebase using Guid(4d13522c218811e429625edc09dae3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7478cec7dd0d63407b5d365318208102') in 0.001227 seconds 
+  Import took 0.011132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.359935 seconds.
+  path: Assets/Oculus/SampleFramework/Core/HandsInteraction
+  artifactKey: Guid(6e0d74ebd3e451c4b89f6c54c932b8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/HandsInteraction using Guid(6e0d74ebd3e451c4b89f6c54c932b8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b97bccf3193dc6f8db15d5b024c262') in 0.001255 seconds 
+  Import took 0.011813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.416612 seconds.
+  path: Assets/Oculus/SampleFramework/Core/Locomotion
+  artifactKey: Guid(bdc7d0c9f4c191446a75a992b3c858ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/Locomotion using Guid(bdc7d0c9f4c191446a75a992b3c858ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6864e01be1575dc6706940a44abf59b4') in 0.001221 seconds 
+  Import took 0.011358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.316282 seconds.
+  path: Assets/Oculus/SampleFramework/Core/Video
+  artifactKey: Guid(dff4c16f2a76c1c49be72446e08de97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/Video using Guid(dff4c16f2a76c1c49be72446e08de97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17c4a517103a6b0fe8dff9f6aaf08b0') in 0.001249 seconds 
+  Import took 0.011209 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.026372 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.81 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.39 ms.
+2022-12-28 17:19:06.521 Unity[1249:14579] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f794e43ca80 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
+  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:447 
+
+(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
+
+- Completed reload, in  3.494 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3495ms)
+		BeginReloadAssembly (267ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (137ms)
+		EndReloadAssembly (3078ms)
+			LoadAssemblies (205ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (977ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (138ms)
+			SetupLoadedEditorAssemblies (1389ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (352ms)
+				ProcessInitializeOnLoadAttributes (975ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 2.95 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.37 ms.
+Unloading 4699 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 497.9 MB.
+System memory in use after: 498.2 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5308.
+Total: 9.004879 ms (FindLiveObjects: 0.757215 ms CreateObjectMapping: 0.495683 ms MarkObjects: 7.644236 ms  DeleteObjects: 0.105871 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020610 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.59 ms.
+2022-12-28 17:21:29.979 Unity[1249:14579] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f794c7dd140 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
+  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:447 
+
+(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
+
+- Completed reload, in  1.656 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1657ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (84ms)
+		EndReloadAssembly (1427ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (458ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (645ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (151ms)
+				ProcessInitializeOnLoadAttributes (465ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.77 ms.
+Unloading 4699 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 411.8 MB.
+System memory in use after: 412.0 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5311.
+Total: 5.079414 ms (FindLiveObjects: 0.446182 ms CreateObjectMapping: 0.271871 ms MarkObjects: 4.293625 ms  DeleteObjects: 0.066520 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 372.886275 seconds.
+  path: Assets/Scenes/Finish.unity
+  artifactKey: Guid(efec05e956fd445de9f9fb023b8c3886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Finish.unity using Guid(efec05e956fd445de9f9fb023b8c3886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd1e0fb372698e68a023f5e2131c40c') in 0.034661 seconds 
+  Import took 0.067131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 322.608482 seconds.
+  path: Assets/Oculus/SampleFramework/Editor
+  artifactKey: Guid(94d0c0bde2436ef40b2fcde66e0d76e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Editor using Guid(94d0c0bde2436ef40b2fcde66e0d76e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed75216371ab19849c325bf4ce873402') in 0.003112 seconds 
+  Import took 0.023507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.137596 seconds.
+  path: Assets/Oculus/SampleFramework/Editor/OculusSampleFrameworkUtil.cs
+  artifactKey: Guid(53c0844bfe5a33c41bc2ff02db18960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Editor/OculusSampleFrameworkUtil.cs using Guid(53c0844bfe5a33c41bc2ff02db18960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b91f1c6d52d7226bedcf5ed47bf18c1') in 0.019000 seconds 
+  Import took 0.028392 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013691 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.59 ms.
+2022-12-28 17:29:17.926 Unity[1249:14579] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f794ed98b50 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+Exception thrown while invoking [DidReloadScripts] method 'Facebook.WitAi.Windows.WitConfigurationEditor:OnScriptsReloaded ()' : NullReferenceException: Object reference not set to an instance of an object
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.ReloadConfigurationData () [0x00029] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:81 
+  at Facebook.WitAi.Data.Configuration.WitConfigurationUtility.get_WitConfigs () [0x00007] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs:36 
+  at Facebook.WitAi.Windows.WitConfigurationEditor.OnScriptsReloaded () [0x00000] in /Users/adamcerven/Documents/GitHub/vr-textdisplay/vr-textdisplay/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationEditor.cs:447 
+
+(Filename: Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor/Data/Configuration/WitConfigurationUtility.cs Line: 81)
+
+- Completed reload, in  1.665 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1667ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (105ms)
+		EndReloadAssembly (1425ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (435ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (622ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (446ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524294) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 1.63 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.82 ms.
+Unloading 4699 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 414.8 MB.
+System memory in use after: 415.1 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 5314.
+Total: 5.062963 ms (FindLiveObjects: 0.516850 ms CreateObjectMapping: 0.318505 ms MarkObjects: 4.159916 ms  DeleteObjects: 0.066655 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 30.023108 seconds.
+  path: Assets/Oculus/SampleFramework/Editor/OculusSampleFrameworkUtil.cs
+  artifactKey: Guid(53c0844bfe5a33c41bc2ff02db18960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Editor/OculusSampleFrameworkUtil.cs using Guid(53c0844bfe5a33c41bc2ff02db18960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312ae3b526c4f85e4b8f87ad66a2d817') in 0.008529 seconds 
+  Import took 0.023423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.911336 seconds.
+  path: Assets/Scenes/GroceryStore.unity
+  artifactKey: Guid(7b55deeb9cda14b428bbef299650d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GroceryStore.unity using Guid(7b55deeb9cda14b428bbef299650d5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d95dffe4c9d9c8504318ddca947ab8f') in 0.012762 seconds 
+  Import took 0.022780 seconds .
+
