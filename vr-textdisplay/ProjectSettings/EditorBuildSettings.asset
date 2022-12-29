@@ -5,15 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/GroceryStore.unity
     guid: 7b55deeb9cda14b428bbef299650d5c0
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Condition2.unity
     guid: 9a18a4823d5c542c78cb966155cfea0a
   - enabled: 1
     path: Assets/Scenes/Condition3.unity
     guid: 63081cfd829382e49918691c755aac91
+  - enabled: 1
+    path: Assets/Scenes/Finish.unity
+    guid: efec05e956fd445de9f9fb023b8c3886
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}

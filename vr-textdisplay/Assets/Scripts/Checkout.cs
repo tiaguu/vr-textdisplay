@@ -8,15 +8,18 @@ public class Checkout : MonoBehaviour
     //public Collider checkoutZone;
     public SpriteRenderer item1;
     public SpriteRenderer item2;
+    public SpriteRenderer item3;
     public Sprite checkmark;
     public Sprite uncheckedCheckmark;
     private int item1Counter;
     private int item2Counter;
+    private int item3Counter;
 
     private void Start()
     {
         item1Counter = 0;
         item2Counter = 0;
+        item3Counter = 0;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -31,9 +34,10 @@ public class Checkout : MonoBehaviour
             item2.sprite = checkmark;
             item2Counter++;
         }
-        if (item1Counter > 0 && item2Counter > 0)
+        if (other.gameObject.tag == "Chips")
         {
-            SceneManager.LoadScene("Finish");
+            item3.sprite = checkmark;
+            item3Counter++;
         }
     }
 
@@ -48,6 +52,19 @@ public class Checkout : MonoBehaviour
         {
             item2Counter--;
             if (item2Counter == 0) item2.sprite = uncheckedCheckmark;
+        }
+        if (other.gameObject.tag == "Chips")
+        {
+            item3Counter--;
+            if (item3Counter == 0) item3.sprite = uncheckedCheckmark;
+        }
+    }
+
+    private void Update()
+    {
+        if (item1Counter > 0 && item2Counter > 0 && item3Counter > 0)
+        {
+            SceneManager.LoadScene("Finish");
         }
     }
 }

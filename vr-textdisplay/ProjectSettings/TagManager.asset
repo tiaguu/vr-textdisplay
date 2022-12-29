@@ -6,6 +6,7 @@ TagManager:
   tags:
   - MeatCan
   - Juice
+  - Chips
   layers:
   - Default
   - TransparentFX
