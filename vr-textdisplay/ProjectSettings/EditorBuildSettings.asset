@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/GroceryStore.unity
     guid: 7b55deeb9cda14b428bbef299650d5c0
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Condition2.unity
     guid: 9a18a4823d5c542c78cb966155cfea0a
   - enabled: 1
