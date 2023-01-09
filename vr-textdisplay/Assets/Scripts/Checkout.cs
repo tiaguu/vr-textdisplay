@@ -11,6 +11,7 @@ public class Checkout : MonoBehaviour
     public SpriteRenderer item3;
     public Sprite checkmark;
     public Sprite uncheckedCheckmark;
+    public GameObject endgame;
     private int item1Counter;
     private int item2Counter;
     private int item3Counter;
@@ -64,7 +65,7 @@ public class Checkout : MonoBehaviour
     {
         if (item1Counter > 0 && item2Counter > 0 && item3Counter > 0)
         {
-            SceneManager.LoadScene("Finish");
+            endgame.SetActive(true);
         }
     }
 }
